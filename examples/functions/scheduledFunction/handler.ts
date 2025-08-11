@@ -1,4 +1,4 @@
-import { ScheduledHandler } from 'aws-lambda';
+import { EventBridgeEvent } from 'aws-lambda';
 import { Amplify } from 'aws-amplify';
 import { generateClient } from 'aws-amplify/data';
 import { getAmplifyDataClientConfig } from '@aws-amplify/backend/function/runtime';
@@ -6,6 +6,10 @@ import type { Schema } from '../../../data/resource';
 
 /**
  * Educational Example: Scheduled Function with EventBridge
+ * 
+ * IMPORTANT TYPE FIX: We use EventBridgeEvent<string, any> instead of ScheduledHandler
+ * because ScheduledHandler expects void return, but we want to return status codes
+ * for proper monitoring and error handling in EventBridge.
  * 
  * This function demonstrates common patterns for scheduled Lambda functions:
  * 
@@ -55,7 +59,7 @@ interface ProcessingRecord {
   processingTime?: number;
 }
 
-export const handler: ScheduledHandler = async (event) => {
+export const handler = async (event: EventBridgeEvent<string, any>) => {
   const startTime = Date.now();
   
   console.log('=== Scheduled Function Started ===');

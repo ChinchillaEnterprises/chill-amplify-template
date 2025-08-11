@@ -40,7 +40,10 @@ export const scheduledFunctionExample = defineFunction({
   // Path to handler file (relative to resource.ts location)
   entry: './handler.ts',
   
-  // Resource group for organization (typically 'data' for scheduled tasks)
+  // CRITICAL FOR DYNAMODB ACCESS: resourceGroupName: 'data'
+  // This grants the Lambda function IAM permissions to access your DynamoDB tables
+  // Without this, the function will get AccessDeniedException when using the Amplify Data client
+  // Must match the resource group name in your data schema authorization rules
   resourceGroupName: 'data',
   
   // TIMEOUT CONFIGURATION:

@@ -1,5 +1,11 @@
 # Scheduled Function Example
 
+⚠️ **IMPORTANT FIXES**: This example has been updated to fix common TypeScript and CDK issues:
+- ✅ Uses `EventBridgeEvent<string, any>` instead of `ScheduledHandler` for proper return types
+- ✅ Imports `Duration` from `aws-cdk-lib` not `aws-events`
+- ✅ Shows complete authorization setup with `resourceGroupName: 'data'`
+- ✅ See `backend-setup.md` for complete, copy-paste ready backend configuration
+
 ## Purpose
 This educational example demonstrates how to create AWS Lambda functions that run on a schedule using EventBridge (formerly CloudWatch Events). It showcases real-world patterns for automated data processing, external API integration, and database operations in an AWS Amplify Gen 2 environment.
 
@@ -75,19 +81,22 @@ In your `amplify/backend.ts` file:
 
 ```typescript
 import { defineBackend } from '@aws-amplify/backend';
-import { Rule, Schedule } from 'aws-cdk-lib/aws-events';
-import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets';
-import { Duration } from 'aws-cdk-lib';
+import { Stack, Duration } from 'aws-cdk-lib';
+import * as events from 'aws-cdk-lib/aws-events';
+import * as targets from 'aws-cdk-lib/aws-events-targets';
 import { scheduledFunctionExample } from './examples/functions/scheduledFunction/resource';
 
 const backend = defineBackend({
   // ... your other resources (auth, data, storage)
-  scheduledFunctionExample,
+  scheduledFunctionExample, // MUST be registered here for permissions
 });
 
+// Get the stack for creating rules
+const functionStack = Stack.of(backend.scheduledFunctionExample.resources.lambda);
+
 // Create EventBridge rule for scheduling
-new Rule(backend.scheduledFunctionExample.resources.lambda.stack, 'DailyDataSync', {
-  schedule: Schedule.cron({ 
+const scheduledRule = new events.Rule(functionStack, 'DailyDataSync', {
+  schedule: events.Schedule.cron({ 
     minute: '0', 
     hour: '2',    // 2 AM UTC
     day: '*',     // Every day
@@ -95,8 +104,12 @@ new Rule(backend.scheduledFunctionExample.resources.lambda.stack, 'DailyDataSync
     year: '*'     // Every year
   }),
   description: 'Daily data synchronization at 2 AM UTC',
-  targets: [new LambdaFunction(backend.scheduledFunctionExample.resources.lambda)]
 });
+
+// Add Lambda as target
+scheduledRule.addTarget(
+  new targets.LambdaFunction(backend.scheduledFunctionExample.resources.lambda)
+);
 ```
 
 ### Step 2: Update Database Schema
