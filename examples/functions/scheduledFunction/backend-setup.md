@@ -3,6 +3,34 @@
 This file contains production-ready code for setting up scheduled Lambda functions in AWS Amplify Gen 2.
 Copy and paste these examples directly into your `amplify/backend.ts` file.
 
+## 🚨 CRITICAL: The #1 Cause of "Malformed Environment Variables" Error
+
+**If your Lambda function fails with "The data environment variables are malformed", you're missing schema-level authorization!**
+
+```typescript
+// ❌ WRONG - This will cause "malformed environment variables" error
+const schema = a.schema({
+  MyModel: a.model({...})
+    .authorization((allow) => [
+      allow.guest(),
+      allow.resource(myFunction), // TypeScript error if placed here!
+    ])
+});
+
+// ✅ CORRECT - Two separate authorization blocks
+const schema = a.schema({
+  MyModel: a.model({...})
+    .authorization((allow) => [
+      allow.guest(), // Model-level: Frontend access
+    ])
+})
+.authorization((allow) => [
+  allow.resource(myFunction), // Schema-level: Lambda gets GraphQL config!
+]);
+```
+
+**Without schema-level `allow.resource()`, your Lambda will NOT receive the GraphQL endpoint configuration, even with `resourceGroupName: 'data'`!**
+
 ## Required Imports
 
 ```typescript
@@ -186,12 +214,13 @@ weeklyCleanupRule.addTarget(
 );
 ```
 
-## Complete Authorization Setup
+## Complete Authorization Setup (THREE Required Parts)
 
-### In `amplify/data/resource.ts`:
+### ✅ Part 1: In `amplify/data/resource.ts` (MOST CRITICAL):
 
 ```typescript
 import { type ClientSchema, a, defineData } from '@aws-amplify/backend';
+// CRITICAL: Import your function to use in schema authorization
 import { myScheduledFunction } from '../functions/myScheduledFunction/resource';
 
 const schema = a.schema({
@@ -204,12 +233,12 @@ const schema = a.schema({
       source: a.string(),
     })
     .authorization((allow) => [
-      allow.guest(), // Frontend access for users
+      allow.guest(), // Model-level: Frontend access for users
     ]),
 })
-// CRITICAL: This grants the Lambda function access to ALL models in the schema
+// 🚨 CRITICAL: Schema-level authorization - WITHOUT THIS, YOU GET "MALFORMED ENV VARS"!
 .authorization((allow) => [
-  allow.resource(myScheduledFunction), // Lambda IAM access
+  allow.resource(myScheduledFunction), // This injects GraphQL config into Lambda!
 ]);
 
 export type Schema = ClientSchema<typeof schema>;
@@ -222,7 +251,12 @@ export const data = defineData({
 });
 ```
 
-### In `amplify/functions/myScheduledFunction/resource.ts`:
+**⚠️ COMMON MISTAKE**: Forgetting the schema-level `.authorization()` block causes:
+- ❌ "The data environment variables are malformed" error
+- ❌ Empty `AMPLIFY_SSM_ENV_CONFIG` in Lambda environment
+- ❌ Missing `AMPLIFY_DATA_GRAPHQL_ENDPOINT` environment variable
+
+### ✅ Part 2: In `amplify/functions/myScheduledFunction/resource.ts`:
 
 ```typescript
 import { defineFunction } from '@aws-amplify/backend';
@@ -230,17 +264,23 @@ import { defineFunction } from '@aws-amplify/backend';
 export const myScheduledFunction = defineFunction({
   name: 'myScheduledFunction',
   entry: './handler.ts',
-  // CRITICAL: This must be 'data' to get DynamoDB permissions
+  // This grants IAM permissions to access DynamoDB tables
+  // BUT DOES NOT provide GraphQL endpoint config - that comes from allow.resource()!
   resourceGroupName: 'data',
   timeoutSeconds: 300,
   memoryMB: 1024,
   environment: {
-    // Your environment variables
+    // Your custom environment variables
   },
 });
 ```
 
-### In `amplify/functions/myScheduledFunction/handler.ts`:
+**What `resourceGroupName: 'data'` does:**
+- ✅ Grants IAM permissions to access DynamoDB tables
+- ❌ Does NOT automatically inject GraphQL endpoint configuration
+- ❌ Does NOT set AMPLIFY_DATA_GRAPHQL_ENDPOINT environment variable
+
+### ✅ Part 3: In `amplify/functions/myScheduledFunction/handler.ts`:
 
 ```typescript
 import { EventBridgeEvent } from 'aws-lambda';
@@ -251,7 +291,8 @@ import type { Schema } from '../../data/resource';
 
 export const handler = async (event: EventBridgeEvent<string, any>) => {
   try {
-    // Initialize Amplify Data client with IAM auth
+    // This function REQUIRES schema-level allow.resource() to work!
+    // Without it, getAmplifyDataClientConfig throws "malformed environment variables"
     const { resourceConfig, libraryOptions } = await getAmplifyDataClientConfig(
       process.env.AWS_REGION!
     );
@@ -261,7 +302,7 @@ export const handler = async (event: EventBridgeEvent<string, any>) => {
     // CRITICAL: Use 'iam' authMode for Lambda functions
     const client = generateClient<Schema>({ authMode: 'iam' });
     
-    // Now you can access DynamoDB
+    // Now you can access DynamoDB through GraphQL
     const result = await client.models.MyModel.create({
       word: 'test',
       createdAt: new Date().toISOString(),
@@ -279,6 +320,8 @@ export const handler = async (event: EventBridgeEvent<string, any>) => {
     };
   } catch (error) {
     console.error('Error:', error);
+    // If you see "malformed environment variables" here, 
+    // you're missing allow.resource() in your schema!
     return {
       statusCode: 500,
       body: JSON.stringify({ error: 'Processing failed' }),
@@ -372,14 +415,33 @@ export const handler = async (event: EventBridgeEvent<string, any>) => {
 };
 ```
 
+### Issue: "The data environment variables are malformed" (MOST COMMON!)
+
+**Problem**: Missing schema-level authorization - Lambda can't find GraphQL endpoint
+
+**Solution**: Add schema-level authorization to your data/resource.ts:
+```typescript
+const schema = a.schema({
+  // your models...
+})
+.authorization((allow) => [
+  allow.resource(yourFunction), // THIS IS REQUIRED!
+]);
+```
+
+**Debug Steps**:
+1. Check Lambda environment variables in AWS Console
+2. Look for `AMPLIFY_DATA_GRAPHQL_ENDPOINT` - if missing, you forgot schema-level auth
+3. Check `AMPLIFY_SSM_ENV_CONFIG` - if empty `{}`, same issue
+
 ### Issue: "AccessDeniedException" when Lambda tries to access DynamoDB
 
 **Problem**: Missing proper authorization setup
 
-**Solution**: Ensure three things:
-1. Function has `resourceGroupName: 'data'` in resource.ts
-2. Schema has `.authorization((allow) => [allow.resource(functionName)])`
-3. Function is registered in `defineBackend({ ..., functionName })`
+**Solution**: Ensure THREE things:
+1. Function has `resourceGroupName: 'data'` in resource.ts (grants IAM permissions)
+2. Schema has `.authorization((allow) => [allow.resource(functionName)])` (injects config)
+3. Function is registered in `defineBackend({ ..., functionName })` (wires everything up)
 
 ### Issue: "Existing schema attributes cannot be modified or deleted" during deployment
 
