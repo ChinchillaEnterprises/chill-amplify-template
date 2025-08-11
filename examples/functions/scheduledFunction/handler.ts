@@ -74,12 +74,17 @@ export const handler = async (event: EventBridgeEvent<string, any>) => {
     // STEP 1: Initialize Amplify Data client with IAM authentication
     // This pattern allows the Lambda function to communicate with AppSync securely
     // without managing tokens or credentials manually
+    //
+    // WHY THIS WORKS: The two-pass system provides everything needed:
+    // - resourceGroupName: 'data' (in resource.ts) = IAM permissions to DynamoDB
+    // - allow.resource(functionName) (in schema) = Injects AMPLIFY_DATA_GRAPHQL_ENDPOINT
     console.log('🔧 Initializing Amplify client...');
     const env = process.env as any;
     const { resourceConfig, libraryOptions } = await getAmplifyDataClientConfig(env);
     Amplify.configure(resourceConfig, libraryOptions);
     
-    // Use IAM auth mode - Lambda automatically has permissions to AppSync
+    // Use IAM auth mode - Lambda execution role automatically has AppSync permissions
+    // (No API keys needed - IAM is more secure and rotates automatically)
     const client = generateClient<Schema>({ authMode: 'iam' });
     console.log('✅ Amplify client initialized successfully');
 
