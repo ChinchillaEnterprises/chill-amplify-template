@@ -13,7 +13,7 @@ const items = [
 export function Sidebar() {
   const pathname = usePathname();
   return (
-    <aside className="hidden w-60 shrink-0 border-r border-slate-200 bg-white p-3 md:block">
+    <aside className="hidden w-60 shrink-0 apple-surface p-3 md:block">
       <nav className="space-y-1">
         {items.map((it) => {
           const active = pathname?.startsWith(it.href);
@@ -22,8 +22,8 @@ export function Sidebar() {
               key={it.href}
               href={it.href}
               className={cn(
-                "block rounded-md px-3 py-2 text-sm font-medium",
-                active ? "bg-slate-900 text-white" : "text-slate-700 hover:bg-slate-50"
+                "block rounded-md px-3 py-2 text-sm font-semibold text-app transition-colors",
+                active ? "bg-app/15 text-app ring-1 ring-app/20" : "hover:bg-app/10"
               )}
             >
               {it.label}
@@ -31,10 +31,9 @@ export function Sidebar() {
           );
         })}
       </nav>
-      <div className="mt-6 text-xs text-slate-400">v0.1</div>
+      <div className="mt-6 text-xs text-appmuted">v0.1</div>
     </aside>
   );
 }
 
 export default Sidebar;
-

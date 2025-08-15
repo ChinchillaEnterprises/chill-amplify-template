@@ -4,7 +4,15 @@ import * as React from "react";
 import { cn } from "@/utils/cn";
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "danger" | "ghost" | "link";
+  variant?:
+    | "primary" // Apple CTA Blue
+    | "secondary" // Apple glass/white
+    | "danger"
+    | "ghost"
+    | "link"
+    | "titaniumBlue"
+    | "titaniumDesert"
+    | "titaniumNatural";
   size?: "sm" | "md" | "lg";
   fullWidth?: boolean;
   loading?: boolean;
@@ -37,11 +45,14 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     } as const;
 
     const variants = {
-      primary: "btn-metal btn-metal--primary text-white",
-      secondary: "btn-glass",
-      danger: "btn-metal btn-metal--danger text-white",
+      primary: "btn-apple-cta",
+      secondary: "apple-surface",
+      danger: "btn-danger-flagship text-white",
       ghost: "bg-transparent text-app hover:bg-app/60",
       link: "bg-transparent text-app underline underline-offset-2 hover:text-app/80",
+      titaniumBlue: "btn-titanium-blue",
+      titaniumDesert: "btn-titanium-desert",
+      titaniumNatural: "btn-titanium-natural",
     } as const;
 
     return (

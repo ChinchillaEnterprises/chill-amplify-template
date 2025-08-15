@@ -37,7 +37,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
             ref={ref}
             type={type}
             className={cn(
-              "w-full appearance-none rounded-xl field-premium bg-surface px-3 py-2 text-sm text-app placeholder:text-appmuted outline-none transition duration-medium ease-premium",
+              "w-full appearance-none rounded-xl field-premium bg-surface px-3 py-2 text-sm text-app outline-none transition duration-medium ease-premium",
               error ? "border-rose-300" : "border-app",
               !!leftIcon && "pl-9",
               (!!rightIcon || showClear) && "pr-9"

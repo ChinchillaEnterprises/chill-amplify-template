@@ -6,27 +6,29 @@ export default function StyleShowcase() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 space-y-8">
       <section>
-        <h1 className="text-3xl font-semibold text-app">Style Showcase</h1>
-        <p className="text-appmuted">Preview of core surfaces and components.</p>
+        <h1 className="text-3xl font-semibold text-app">Style Showcase — Path A</h1>
+        <p className="text-appmuted">Flagship materials: navy metallics, chrome, glass, cyan glows.</p>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="p-6 card-premium">
-          <h2 className="text-xl font-medium text-app">Premium Card</h2>
-          <p className="text-appmuted">Layered shadows, subtle gradient, inner sheen.</p>
+        <div className="p-6 apple-surface">
+          <h2 className="text-xl font-medium text-app">Apple Card</h2>
+          <p className="text-appmuted">White surface with soft Apple shadows.</p>
         </div>
-        <div className="p-6 btn-glass">
-          <h2 className="text-xl font-medium text-app">Glass Surface</h2>
-          <p className="text-appmuted">Frosted translucency with edge light.</p>
+        <div className="p-6 apple-surface">
+          <h2 className="text-xl font-medium text-app">Clean Surface</h2>
+          <p className="text-appmuted">Subtle contrast on Light Space Gray background.</p>
         </div>
       </section>
 
       <section className="space-y-4">
         <h3 className="text-lg font-medium text-app">Buttons</h3>
         <div className="flex flex-wrap gap-3">
-          <Button variant="primary">Primary (Metal)</Button>
-          <Button variant="secondary">Secondary (Glass)</Button>
-          <Button variant="danger">Danger (Metal)</Button>
+          <Button variant="primary">Primary — Apple Blue</Button>
+          <Button variant="titaniumBlue">Blue Titanium</Button>
+          <Button variant="titaniumDesert">Desert Titanium</Button>
+          <Button variant="titaniumNatural">Natural Titanium</Button>
+          <Button variant="secondary">White Surface</Button>
           <Button variant="ghost">Ghost</Button>
           <Button variant="link">Link</Button>
         </div>

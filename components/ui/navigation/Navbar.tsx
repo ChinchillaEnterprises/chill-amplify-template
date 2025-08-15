@@ -11,22 +11,22 @@ export function Navbar() {
   const user = { username: "demo@example.com" };
   const signOut = () => console.log("Sign out clicked");
   return (
-    <header className="sticky top-0 z-40 w-full nav-premium">
+    <header className="sticky top-0 z-40 w-full apple-nav">
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4">
         <div className="flex items-center gap-3">
           <div className="h-6 w-6 rounded-full" style={{
-            background: 'radial-gradient(circle at 30% 30%, rgba(127,239,255,0.6), rgba(0,0,0,0)) , linear-gradient(180deg, #243A66, #121C34)'
+            background: 'linear-gradient(180deg, #E5E5E7, #D2D2D6)', border: '1px solid #D2D2D6'
           }} />
-          <Link href="/" className="text-sm font-semibold text-white">Chill Amplify</Link>
+          <Link href="/" className="text-sm font-semibold text-app">Chill Amplify</Link>
         </div>
         <div className="relative">
           <button
-            className="flex items-center gap-2 rounded-md btn-glass px-3 py-1.5 text-sm"
+            className="flex items-center gap-2 rounded-md apple-surface px-3 py-1.5 text-sm"
             onClick={() => setOpen((o) => !o)}
             aria-haspopup="menu"
             aria-expanded={open}
           >
-            <span className="inline-block h-6 w-6 rounded-full" style={{ background: 'linear-gradient(180deg, #A1B5D8, #6B7C93)' }} />
+            <span className="inline-block h-6 w-6 rounded-full" style={{ background: 'linear-gradient(180deg, #F5F5F7, #E5E5EA)', border: '1px solid #E5E5EA' }} />
             <span className="hidden sm:inline text-app">{user?.username}</span>
           </button>
           {/* Theme toggle */}
@@ -60,7 +60,7 @@ export function Navbar() {
           {open && (
             <div
               role="menu"
-              className="absolute right-0 mt-2 min-w-40 rounded-md border border-app bg-surface p-1 shadow-elevated"
+              className="absolute right-0 mt-2 min-w-40 rounded-md border border-app bg-surface p-1 shadow-apple-soft"
             >
               <Link href="/(protected)/profile" className="block rounded px-2 py-1.5 text-sm text-app hover:bg-app/60" role="menuitem">Profile</Link>
               <button onClick={() => signOut()} className="block w-full rounded px-2 py-1.5 text-left text-sm text-app hover:bg-app/60" role="menuitem">Sign out</button>
