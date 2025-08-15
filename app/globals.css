@@ -1,3 +1,231 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Design tokens: stable, CSS-first, cross-platform */
+:root {
+  /* Colors */
+  --color-bg: 255 255 255; /* warm white base */
+  --color-surface: 248 250 252; /* soft surface */
+  --color-text: 15 23 42; /* slate-900 */
+  --color-muted: 71 85 105; /* slate-600 */
+  --color-border: 226 232 240; /* slate-200 */
+
+  /* Accents (Tron-inspired) */
+  --accent-cyan: 0 212 255; /* #00D4FF */
+  --accent-cyan-soft: 127 239 255; /* #7FEFFF */
+  --accent-deep: 10 22 40; /* #0A1628 */
+  --accent-warn: 255 107 53; /* #FF6B35 */
+
+  /* Elevation, radii, spacing */
+  --radius: 12px;
+  --shadow-soft: 0 1px 2px rgb(15 23 42 / 0.06), 0 8px 24px rgb(15 23 42 / 0.10);
+  --shadow-elevated: 0 2px 4px rgb(15 23 42 / 0.12), 0 16px 40px rgb(15 23 42 / 0.18);
+
+  /* Easing and durations */
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 180ms;
+  --dur-medium: 260ms;
+  --dur-slow: 420ms;
+}
+
+.dark {
+  --color-bg: 10 14 26; /* deep blue-black */
+  --color-surface: 26 31 46; /* warm charcoal */
+  --color-text: 232 244 253; /* warm white */
+  --color-muted: 148 163 184; /* slate-400 */
+  --color-border: 42 52 65; /* subtle definition lines */
+
+  /* Accents pop more in dark */
+  --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.3), 0 12px 32px rgb(0 0 0 / 0.35);
+  --shadow-elevated: 0 2px 8px rgb(0 0 0 / 0.35), 0 24px 48px rgb(0 0 0 / 0.45);
+}
+
+/* Base document styling using tokens */
+html, body {
+  background-color: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+}
+
+/* Premium utility classes (CSS-first, no extra deps) */
+.surface-metal {
+  /* Brushed aluminum inspired gradient */
+  background-image: linear-gradient(
+      180deg,
+      rgb(255 255 255 / 0.85),
+      rgb(240 244 248 / 0.85)
+    ),
+    radial-gradient(120% 100% at 50% 0%, rgb(255 255 255 / 0.4), rgb(0 0 0 / 0));
+  background-blend-mode: overlay, normal;
+  border: 1px solid rgb(var(--color-border));
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+}
+
+.surface-glass {
+  background: rgb(255 255 255 / 0.55);
+  border: 1px solid rgb(255 255 255 / 0.35);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: saturate(140%) blur(10px);
+}
+
+.dark .surface-glass {
+  background: rgb(26 31 46 / 0.55);
+  border-color: rgb(255 255 255 / 0.08);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 0 0 rgb(var(--accent-cyan) / 0);
+  transition: box-shadow var(--dur-medium) var(--ease-premium), transform var(--dur-medium) var(--ease-premium);
+}
+
+.glow-cyan:hover {
+  box-shadow: 0 0 0 2px rgb(var(--accent-cyan) / 0.3), 0 8px 24px rgb(var(--accent-cyan) / 0.35);
+  transform: translateY(-1px) scale(1.02);
+}
+
+.depth-soft {
+  box-shadow: var(--shadow-soft);
+  border-radius: var(--radius);
+}
+
+.animation-premium {
+  transition-timing-function: var(--ease-premium);
+}
+
+/* Cyan focus ring accessible on both themes */
+.focus-ring-premium:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(var(--accent-cyan-soft) / 0.6);
+}
+
+/* Reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Token-backed helpers for Tailwind arbitrary values */
+.bg-surface { background-color: rgb(var(--color-surface)); }
+.bg-app { background-color: rgb(var(--color-bg)); }
+.text-app { color: rgb(var(--color-text)); }
+.text-muted { color: rgb(var(--color-muted)); }
+.border-app { border-color: rgb(var(--color-border)); }
+
+/* --- PREMIUM MATERIALS (bold, visible, Samsung-like) --- */
+
+/* Premium metallic button: deep blue metallic with specular sheen */
+.btn-metal {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  border: 1px solid rgb(255 255 255 / 0.18);
+  color: white;
+  background-image:
+    linear-gradient(180deg, rgb(36 58 102) 0%, rgb(18 28 52) 100%), /* deep blue core */
+    radial-gradient(120% 80% at 50% -20%, rgb(127 239 255 / 0.35) 0%, rgb(0 0 0 / 0) 60%), /* cyan sheen */
+    linear-gradient(120deg, rgb(255 255 255 / 0.15), rgb(255 255 255 / 0)); /* soft specular */
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.25),
+    inset 0 -1px 0 rgb(0 0 0 / 0.25),
+    0 8px 24px rgb(0 0 0 / 0.25);
+  transition: transform var(--dur-medium) var(--ease-premium), box-shadow var(--dur-medium) var(--ease-premium), filter var(--dur-medium) var(--ease-premium);
+}
+
+.btn-metal:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.25),
+    inset 0 -1px 0 rgb(0 0 0 / 0.25),
+    0 0 0 2px rgb(var(--accent-cyan) / 0.35),
+    0 16px 40px rgb(var(--accent-cyan) / 0.25);
+  filter: saturate(110%);
+}
+
+.btn-metal:active {
+  transform: translateY(0);
+  box-shadow:
+    inset 0 2px 6px rgb(0 0 0 / 0.35),
+    0 0 0 2px rgb(var(--accent-cyan) / 0.25);
+}
+
+/* Variant accents */
+.btn-metal--primary {
+  /* Keep deep blue; cyan glows visible */
+}
+
+.btn-metal--danger {
+  background-image:
+    linear-gradient(180deg, rgb(145 41 18) 0%, rgb(92 20 8) 100%),
+    radial-gradient(120% 80% at 50% -20%, rgb(255 107 53 / 0.4) 0%, rgb(0 0 0 / 0) 60%),
+    linear-gradient(120deg, rgb(255 255 255 / 0.1), rgb(255 255 255 / 0));
+}
+
+/* Premium glass button/surface: frosted with edge light */
+.btn-glass {
+  position: relative;
+  border-radius: var(--radius);
+  background: rgb(255 255 255 / 0.12);
+  color: rgb(var(--color-text));
+  border: 1px solid rgb(255 255 255 / 0.2);
+  backdrop-filter: blur(12px) saturate(130%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.35), 0 10px 30px rgb(0 0 0 / 0.15);
+  transition: transform var(--dur-medium) var(--ease-premium), box-shadow var(--dur-medium) var(--ease-premium), background var(--dur-medium) var(--ease-premium);
+}
+
+.btn-glass:hover {
+  background: rgb(255 255 255 / 0.18);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.4), 0 0 0 2px rgb(var(--accent-cyan) / 0.25), 0 12px 36px rgb(var(--accent-cyan) / 0.2);
+  transform: translateY(-1px);
+}
+
+/* Premium card with layered depth and subtle inner border */
+.card-premium {
+  position: relative;
+  border-radius: var(--radius);
+  background-image: linear-gradient(180deg, rgb(250 252 255) 0%, rgb(244 247 252) 100%);
+  box-shadow: var(--shadow-elevated);
+  border: 1px solid rgb(var(--color-border));
+}
+
+.dark .card-premium {
+  background-image: linear-gradient(180deg, rgb(30 36 56) 0%, rgb(20 26 44) 100%);
+}
+
+.card-premium::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.25), rgb(255 255 255 / 0));
+}
+
+/* Premium input field with subtle inset and glow focus */
+.field-premium {
+  background-image: linear-gradient(180deg, rgb(255 255 255) 0%, rgb(246 248 252) 100%);
+  border: 1px solid rgb(var(--color-border));
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 0.06), var(--shadow-soft);
+}
+
+.dark .field-premium {
+  background-image: linear-gradient(180deg, rgb(27 33 50) 0%, rgb(22 28 44) 100%);
+}
+
+.field-premium:focus {
+  box-shadow: 0 0 0 2px rgb(var(--accent-cyan) / 0.45), 0 8px 24px rgb(var(--accent-cyan) / 0.25), inset 0 1px 2px rgb(0 0 0 / 0.06);
+}
+
+/* Premium translucent nav */
+.nav-premium {
+  background: linear-gradient(180deg, rgb(10 16 28 / 0.75), rgb(10 16 28 / 0.55));
+  border-bottom: 1px solid rgb(127 239 255 / 0.25);
+  backdrop-filter: blur(14px) saturate(130%);
+}

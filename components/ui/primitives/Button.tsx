@@ -28,7 +28,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     },
     ref
   ) => {
-    const base = "inline-flex items-center justify-center gap-2 rounded-md font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed select-none";
+    const base = "inline-flex items-center justify-center gap-2 rounded-xl font-medium transition-all ease-premium disabled:opacity-50 disabled:cursor-not-allowed select-none animation-premium focus-ring-premium";
 
     const sizes = {
       sm: "text-sm px-3 h-8",
@@ -37,15 +37,11 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     } as const;
 
     const variants = {
-      primary:
-        "bg-slate-900 text-white hover:bg-slate-800 focus-visible:ring-slate-400",
-      secondary:
-        "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 focus-visible:ring-slate-300",
-      danger:
-        "bg-rose-600 text-white hover:bg-rose-500 focus-visible:ring-rose-300",
-      ghost:
-        "bg-transparent text-slate-900 hover:bg-slate-100 focus-visible:ring-slate-300",
-      link: "bg-transparent text-slate-900 underline underline-offset-2 hover:text-slate-700 focus-visible:ring-transparent",
+      primary: "btn-metal btn-metal--primary text-white",
+      secondary: "btn-glass",
+      danger: "btn-metal btn-metal--danger text-white",
+      ghost: "bg-transparent text-app hover:bg-app/60",
+      link: "bg-transparent text-app underline underline-offset-2 hover:text-app/80",
     } as const;
 
     return (
@@ -66,7 +62,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         {rightIcon && <span className="-mr-0.5">{rightIcon}</span>}
         {loading && (
           <span className="absolute inline-flex">
-            <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/70 border-t-transparent" />
+            <span className="h-4 w-4 animate-spin rounded-full border-2 border-cyansoft/70 border-t-transparent" />
           </span>
         )}
       </button>
@@ -77,4 +73,3 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 Button.displayName = "Button";
 
 export default Button;
-

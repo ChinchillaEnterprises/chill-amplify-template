@@ -18,7 +18,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
     ref
   ) => {
     const id = React.useId();
-    const [value, setValue] = React.useState<string | number | readonly string | undefined>(props.value);
+    const [value, setValue] = React.useState<string | number | readonly string[] | undefined>(props.value as any);
     React.useEffect(() => setValue(props.value), [props.value]);
 
     const showClear = clearable && typeof value === "string" && value.length > 0;
@@ -31,16 +31,16 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
           </label>
         )}
         <div className={cn("relative flex items-center")}> 
-          {leftIcon && <span className="absolute left-3 text-slate-400">{leftIcon}</span>}
+          {leftIcon && <span className="absolute left-3 text-appmuted">{leftIcon}</span>}
           <input
             id={id}
             ref={ref}
             type={type}
             className={cn(
-              "w-full appearance-none rounded-md border bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 shadow-sm outline-none transition focus:ring-2 focus:ring-slate-300",
-              error ? "border-rose-300" : "border-slate-200",
-              leftIcon && "pl-9",
-              (rightIcon || showClear) && "pr-9"
+              "w-full appearance-none rounded-xl field-premium bg-surface px-3 py-2 text-sm text-app placeholder:text-appmuted outline-none transition duration-medium ease-premium",
+              error ? "border-rose-300" : "border-app",
+              !!leftIcon && "pl-9",
+              (!!rightIcon || showClear) && "pr-9"
             )}
             aria-invalid={!!error}
             aria-describedby={helperText ? `${id}-help` : undefined}
@@ -54,7 +54,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
             <button
               type="button"
               aria-label="Clear input"
-              className="absolute right-2 rounded p-1 text-slate-400 hover:bg-slate-100 hover:text-slate-600"
+              className="absolute right-2 rounded p-1 text-appmuted hover:bg-app/70 hover:text-app"
               onClick={() => {
                 setValue("");
                 const target = { ...(({} as unknown) as EventTarget), value: "" } as HTMLInputElement;
@@ -64,10 +64,10 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
               <span className="block h-4 w-4">×</span>
             </button>
           )}
-          {!showClear && rightIcon && <span className="absolute right-3 text-slate-400">{rightIcon}</span>}
+          {!showClear && rightIcon && <span className="absolute right-3 text-appmuted">{rightIcon}</span>}
         </div>
         {helperText && !error && (
-          <p id={`${id}-help`} className="mt-1 text-xs text-slate-500">
+          <p id={`${id}-help`} className="mt-1 text-xs text-appmuted">
             {helperText}
           </p>
         )}
@@ -80,4 +80,3 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
 Input.displayName = "Input";
 
 export default Input;
-
