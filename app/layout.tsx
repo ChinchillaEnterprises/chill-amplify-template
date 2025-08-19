@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "./providers";
+import { MockModeBanner } from "@/components/layout/MockModeBanner";
 
 export const metadata: Metadata = {
   title: "Chill Amplify Template",
@@ -15,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <MockModeBanner />
+          {children}
+        </Providers>
       </body>
     </html>
   );

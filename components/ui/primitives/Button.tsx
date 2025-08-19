@@ -46,7 +46,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
     const variants = {
       primary: "btn-apple-cta",
-      secondary: "apple-surface",
+      secondary: "apple-surface text-app",
       danger: "btn-danger-flagship text-white",
       ghost: "bg-transparent text-app hover:bg-app/60",
       link: "bg-transparent text-app underline underline-offset-2 hover:text-app/80",

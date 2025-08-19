@@ -65,8 +65,8 @@ html, body {
 }
 
 /* Ensure high contrast text colors */
-.text-app { color: rgb(var(--apple-spaceblack)) !important; }
-.text-appmuted { color: rgb(100 100 105) !important; /* #646469 - much darker than original */ }
+.text-app { color: rgb(29 29 31) !important; /* #1D1D1F - Space Black */ }
+.text-appmuted { color: rgb(51 51 54) !important; /* #333336 - Much darker for high contrast */ }
 
 /* Premium utility classes (CSS-first, no extra deps) */
 .surface-metal {
@@ -134,7 +134,7 @@ html, body {
 /* Token-backed helpers for Tailwind arbitrary values */
 .bg-surface { background-color: rgb(var(--color-surface)); }
 .bg-app { background-color: rgb(var(--color-bg)); }
-.text-app { color: rgb(var(--color-text)); }
+/* text-app and text-appmuted defined above with !important for consistency */
 .text-muted { color: rgb(var(--color-muted)); }
 .border-app { border-color: rgb(var(--color-border)); }
 

@@ -1,21 +1,19 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { Amplify } from "aws-amplify";
-import outputs from "@/amplify_outputs.json" assert { type: "json" };
 import { ToastProvider } from "@/hooks/useToast";
+import { isMockMode, getAmplifyStatus } from "@/lib/amplify-config";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const configured = useRef(false);
 
   useEffect(() => {
     if (!configured.current) {
-      try {
-        Amplify.configure(outputs);
-        configured.current = true;
-      } catch {
-        // ignore configure errors in dev
-      }
+      // Import and configure Amplify is now handled in amplify-config.ts
+      // This prevents errors when in mock mode
+      const status = getAmplifyStatus();
+      console.log(status.message);
+      configured.current = true;
     }
   }, []);
 

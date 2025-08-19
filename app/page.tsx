@@ -41,10 +41,10 @@ export default function Home() {
       <header className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         <div className="flex items-center gap-2">
           <div className="h-6 w-6 rounded-full bg-slate-900" />
-          <span className="text-sm font-semibold text-slate-900">Chill Amplify</span>
+          <span className="text-sm font-semibold" style={{ color: 'rgb(29, 29, 31)' }}>Chill Amplify</span>
         </div>
         <nav className="flex items-center gap-3">
-          <Link href="/login" className="text-sm text-slate-700 hover:underline">Login</Link>
+          <Link href="/login" className="text-sm hover:underline" style={{ color: 'rgb(51, 51, 54)' }}>Login</Link>
           <Link href="/signup">
             <Button size="sm">Sign up</Button>
           </Link>
@@ -58,17 +58,17 @@ export default function Home() {
         {/* Hero */}
         <section className="relative grid place-items-center py-20">
           <div className="text-center">
-            <h1 className="mx-auto max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
+            <h1 className="mx-auto max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl" style={{ color: 'rgb(29, 29, 31)' }}>
               Build modern apps with Amplify Gen 2 and Next.js
             </h1>
-            <p className="mx-auto mt-4 max-w-2xl text-base text-slate-600 sm:text-lg">
+            <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg" style={{ color: 'rgb(51, 51, 54)' }}>
               A clean, opinionated template with an elegant UI library, authentication,
               and ready-to-use dashboard components. Focus on features, not boilerplate.
             </p>
             <div className="mt-8 flex justify-center gap-3">
               <AuthCta />
             </div>
-            <p className="mt-3 text-xs text-slate-500">Includes Tailwind v4, TypeScript, and AWS Amplify</p>
+            <p className="mt-3 text-xs" style={{ color: 'rgb(71, 71, 74)' }}>Includes Tailwind v4, TypeScript, and AWS Amplify</p>
           </div>
         </section>
 
@@ -77,30 +77,30 @@ export default function Home() {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
               <div className="h-8 w-8 rounded-md bg-slate-900" />
-              <h3 className="mt-3 text-sm font-semibold text-slate-900">Auth-ready</h3>
-              <p className="mt-1 text-sm text-slate-600">Cognito-backed flows for signup, login, MFA, and password reset.</p>
+              <h3 className="mt-3 text-sm font-semibold" style={{ color: 'rgb(29, 29, 31)' }}>Auth-ready</h3>
+              <p className="mt-1 text-sm" style={{ color: 'rgb(51, 51, 54)' }}>Cognito-backed flows for signup, login, MFA, and password reset.</p>
             </div>
             <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
               <div className="h-8 w-8 rounded-md bg-slate-900" />
-              <h3 className="mt-3 text-sm font-semibold text-slate-900">UI Library</h3>
-              <p className="mt-1 text-sm text-slate-600">Polished primitives and forms, built with accessibility in mind.</p>
+              <h3 className="mt-3 text-sm font-semibold" style={{ color: 'rgb(29, 29, 31)' }}>UI Library</h3>
+              <p className="mt-1 text-sm" style={{ color: 'rgb(51, 51, 54)' }}>Polished primitives and forms, built with accessibility in mind.</p>
             </div>
             <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
               <div className="h-8 w-8 rounded-md bg-slate-900" />
-              <h3 className="mt-3 text-sm font-semibold text-slate-900">Dashboard</h3>
-              <p className="mt-1 text-sm text-slate-600">Responsive layout with navbar, sidebar, and production-ready patterns.</p>
+              <h3 className="mt-3 text-sm font-semibold" style={{ color: 'rgb(29, 29, 31)' }}>Dashboard</h3>
+              <p className="mt-1 text-sm" style={{ color: 'rgb(51, 51, 54)' }}>Responsive layout with navbar, sidebar, and production-ready patterns.</p>
             </div>
             <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
               <div className="h-8 w-8 rounded-md bg-slate-900" />
-              <h3 className="mt-3 text-sm font-semibold text-slate-900">Amplify Gen 2</h3>
-              <p className="mt-1 text-sm text-slate-600">Easy data, storage, and hosting integration for full-stack apps.</p>
+              <h3 className="mt-3 text-sm font-semibold" style={{ color: 'rgb(29, 29, 31)' }}>Amplify Gen 2</h3>
+              <p className="mt-1 text-sm" style={{ color: 'rgb(51, 51, 54)' }}>Easy data, storage, and hosting integration for full-stack apps.</p>
             </div>
           </div>
         </section>
       </main>
 
       <footer className="border-t border-slate-200 bg-white/60">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 text-xs text-slate-500">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 text-xs" style={{ color: 'rgb(71, 71, 74)' }}>
           <span>© {new Date().getFullYear()} Chill Amplify</span>
           <span>Next.js + AWS Amplify</span>
         </div>
