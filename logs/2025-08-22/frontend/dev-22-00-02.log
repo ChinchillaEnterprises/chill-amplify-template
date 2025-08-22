@@ -224,3 +224,499 @@ https://react.dev/link/hydration-mismatch
 [2025-08-22T03:00:48.724Z] [frontend-with-browser]  ✓ Compiled /admin/components/snackbars in 422ms (2542 modules)
 [2025-08-22T03:00:48.779Z] [frontend-with-browser]  GET /admin/components/snackbars 200 in 487ms
 [2025-08-22T03:00:48.779Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 390ms
+[2025-08-22T03:36:01.385Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:36:01.534Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/FrontPages/Home/BuildingBlocks'
+  2 | import Navbar from "@/components/FrontPages/Common/Navbar";
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+> 4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+    | ^
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:01.536Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ExampleShowcase'
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+  4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+> 5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+    | ^
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:01.536Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/FrontPages/Home/HowItWorks'
+  4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+> 6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+    | ^
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+  9 | import Footer from "@/components/FrontPages/Common/Footer";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:01.536Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ComponentsPreview'
+   5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+>  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+     | ^
+   8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:01.536Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/FrontPages/Home/GetStarted'
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+   7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+>  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+     | ^
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:01.560Z] [frontend-with-browser] [BROWSER] [LOG] {file: Object}
+[2025-08-22T03:36:01.830Z] [frontend-with-browser] [ERROR]  ⨯ ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/FrontPages/Home/BuildingBlocks'
+  2 | import Navbar from "@/components/FrontPages/Common/Navbar";
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+> 4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+    | ^
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:28.567Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:36:28.589Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 21ms
+[2025-08-22T03:36:29.050Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/FrontPages/Home/BuildingBlocks'
+  2 | import Navbar from "@/components/FrontPages/Common/Navbar";
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+> 4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+    | ^
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:29.050Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ExampleShowcase'
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+  4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+> 5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+    | ^
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:29.051Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/FrontPages/Home/HowItWorks'
+  4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+> 6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+    | ^
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+  9 | import Footer from "@/components/FrontPages/Common/Footer";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:29.052Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ComponentsPreview'
+   5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+>  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+     | ^
+   8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:29.052Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/FrontPages/Home/GetStarted'
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+   7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+>  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+     | ^
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:36:29.053Z] [frontend-with-browser] [BROWSER] [LOG] {file: Object}
+[2025-08-22T03:36:29.234Z] [frontend-with-browser] [ERROR]  ⨯ ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/FrontPages/Home/BuildingBlocks'
+  2 | import Navbar from "@/components/FrontPages/Common/Navbar";
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+> 4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+    | ^
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:07.776Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 39207ms
+[2025-08-22T03:37:07.932Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:37:08.486Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/FrontPages/Home/BuildingBlocks'
+  2 | import Navbar from "@/components/FrontPages/Common/Navbar";
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+> 4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+    | ^
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:08.487Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/FrontPages/Home/HowItWorks'
+  4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+> 6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+    | ^
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+  9 | import Footer from "@/components/FrontPages/Common/Footer";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:08.488Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ComponentsPreview'
+   5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+>  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+     | ^
+   8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:08.488Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/FrontPages/Home/GetStarted'
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+   7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+>  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+     | ^
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:08.489Z] [frontend-with-browser] [BROWSER] [LOG] {file: Object}
+[2025-08-22T03:37:08.670Z] [frontend-with-browser] [ERROR]  ⨯ ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/FrontPages/Home/BuildingBlocks'
+  2 | import Navbar from "@/components/FrontPages/Common/Navbar";
+  3 | import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
+> 4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+    | ^
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+  6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:45.914Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 37982ms
+[2025-08-22T03:37:46.020Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:37:46.283Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/FrontPages/Home/HowItWorks'
+  4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+> 6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+    | ^
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+  9 | import Footer from "@/components/FrontPages/Common/Footer";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:46.284Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ComponentsPreview'
+   5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+>  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+     | ^
+   8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:46.284Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/FrontPages/Home/GetStarted'
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+   7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+>  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+     | ^
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:37:46.287Z] [frontend-with-browser] [BROWSER] [LOG] {file: Object}
+[2025-08-22T03:37:46.517Z] [frontend-with-browser] [ERROR]  ⨯ ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/FrontPages/Home/HowItWorks'
+  4 | import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+  5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+> 6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+    | ^
+  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+  9 | import Footer from "@/components/FrontPages/Common/Footer";
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:40:23.478Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 157459ms
+[2025-08-22T03:40:23.806Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:40:24.275Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ComponentsPreview'
+   5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+>  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+     | ^
+   8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:40:24.279Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/FrontPages/Home/GetStarted'
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+   7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+>  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+     | ^
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:40:24.281Z] [frontend-with-browser] [BROWSER] [LOG] {file: Object}
+[2025-08-22T03:40:24.852Z] [frontend-with-browser] [ERROR]  ⨯ ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/FrontPages/Home/ComponentsPreview'
+   5 | import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+>  7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+     | ^
+   8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:41:28.218Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 64411ms
+[2025-08-22T03:41:28.405Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:41:29.066Z] [frontend-with-browser] [BROWSER] [ERROR] ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/FrontPages/Home/GetStarted'
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+   7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+>  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+     | ^
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:41:29.067Z] [frontend-with-browser] [BROWSER] [LOG] {file: Object}
+[2025-08-22T03:41:29.651Z] [frontend-with-browser] [ERROR]  ⨯ ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/FrontPages/Home/GetStarted'
+   6 | import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+   7 | import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+>  8 | import GetStarted from "@/components/FrontPages/Home/GetStarted";
+     | ^
+   9 | import Footer from "@/components/FrontPages/Common/Footer";
+  10 |
+  11 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T03:42:15.396Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 46991ms
+[2025-08-22T03:42:15.485Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:42:16.226Z] [frontend-with-browser] [ERROR]  ⚠ ./src/components/FrontPages/Home/GetStarted.tsx
+Attempted import error: 'Play' is not exported from '__barrel_optimize__?names=AutoAwesome,CheckCircle,Code,Play,Rocket,School,Speed!=!@mui/icons-material' (imported as 'PlayIcon').
+
+Import trace for requested module:
+./src/components/FrontPages/Home/GetStarted.tsx
+
+./src/components/FrontPages/Home/GetStarted.tsx
+Attempted import error: 'Play' is not exported from '__barrel_optimize__?names=AutoAwesome,CheckCircle,Code,Play,Rocket,School,Speed!=!@mui/icons-material' (imported as 'PlayIcon').
+
+Import trace for requested module:
+./src/components/FrontPages/Home/GetStarted.tsx
+
+./src/components/FrontPages/Home/GetStarted.tsx
+Attempted import error: 'Play' is not exported from '__barrel_optimize__?names=AutoAwesome,CheckCircle,Code,Play,Rocket,School,Speed!=!@mui/icons-material' (imported as 'PlayIcon').
+
+Import trace for requested module:
+./src/components/FrontPages/Home/GetStarted.tsx
+
+./src/components/FrontPages/Home/GetStarted.tsx
+Attempted import error: 'Play' is not exported from '__barrel_optimize__?names=AutoAwesome,CheckCircle,Code,Play,Rocket,School,Speed!=!@mui/icons-material' (imported as 'PlayIcon').
+
+Import trace for requested module:
+./src/components/FrontPages/Home/GetStarted.tsx
+[2025-08-22T03:42:16.233Z] [frontend-with-browser] [BROWSER] [WARNING] ./src/components/FrontPages/Home/GetStarted.tsx
+Attempted import error: 'Play' is not exported from '__barrel_optimize__?names=AutoAwesome,CheckCircle,Code,Play,Rocket,School,Speed!=!@mui/icons-material' (imported as 'PlayIcon').
+
+Import trace for requested module:
+./src/components/FrontPages/Home/GetStarted.tsx
+[2025-08-22T03:42:16.233Z] [frontend-with-browser] [BROWSER] [WARNING] ./src/components/FrontPages/Home/GetStarted.tsx
+Attempted import error: 'Play' is not exported from '__barrel_optimize__?names=AutoAwesome,CheckCircle,Code,Play,Rocket,School,Speed!=!@mui/icons-material' (imported as 'PlayIcon').
+
+Import trace for requested module:
+./src/components/FrontPages/Home/GetStarted.tsx
+[2025-08-22T03:42:16.263Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 778ms
+[2025-08-22T03:42:16.382Z] [frontend-with-browser]  GET /admin/components/snackbars 200 in 151ms
+[2025-08-22T03:42:16.402Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/css/app/layout.css?v=1755834136353
+[2025-08-22T03:42:16.403Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:42:16.636Z] [frontend-with-browser] [BROWSER] [ERROR] Unhandled Promise Rejection: Event
+[2025-08-22T03:42:16.637Z] [frontend-with-browser] [BROWSER] [PAGE ERROR] Event
+
+[2025-08-22T03:43:39.847Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:43:40.716Z] [frontend-with-browser]  ✓ Compiled in 890ms (2570 modules)
+[2025-08-22T03:43:40.757Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 918ms
+[2025-08-22T03:54:11.064Z] [frontend-with-browser]  GET /admin/components/snackbars 200 in 204ms
+[2025-08-22T03:54:11.289Z] [frontend-with-browser] [BROWSER] [PAGE ERROR] Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:35062)
+    at oI (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:75810)
+    at oq (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:85111)
+    at ik (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:114682)
+    at http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:110730
+    at iu (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:110831)
+    at iX (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:132934)
+    at MessagePort.w (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:63951)
+[2025-08-22T03:54:11.343Z] [frontend-with-browser]  GET /admin 200 in 68ms
+[2025-08-22T03:54:11.814Z] [frontend-with-browser]  ○ Compiling /admin/components/badges ...
+[2025-08-22T03:54:13.711Z] [frontend-with-browser]  ✓ Compiled /admin/components/badges in 2.4s (2645 modules)
+[2025-08-22T03:54:13.922Z] [frontend-with-browser] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/admin/components/typography/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/page.js:2:15706)
+    at Object.<anonymous> (.next/server/app/admin/page.js:2:15773) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin'
+}
+[2025-08-22T03:54:13.924Z] [frontend-with-browser]  GET /admin/components/typography 200 in 2646ms
+[2025-08-22T03:54:13.925Z] [frontend-with-browser]  GET /admin/components/colors 200 in 2646ms
+[2025-08-22T03:54:13.926Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/typography. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T03:54:13.926Z] [frontend-with-browser]  GET /admin/components/icons 200 in 2643ms
+ GET /admin/components/buttons 200 in 2648ms
+[2025-08-22T03:54:13.927Z] [frontend-with-browser]  GET /admin/components/badges 200 in 2567ms
+[2025-08-22T03:54:13.927Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/colors. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T03:54:13.927Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/icons. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T03:54:13.927Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/buttons. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T03:54:13.928Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/badges. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T03:54:14.443Z] [frontend-with-browser]  ○ Compiling /admin/components/chips ...
+[2025-08-22T03:54:15.166Z] [frontend-with-browser]  ✓ Compiled /admin/components/chips in 1239ms (3003 modules)
+[2025-08-22T03:54:15.329Z] [frontend-with-browser]  GET /admin/components/chips 200 in 1397ms
+[2025-08-22T03:54:15.330Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/chips. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T03:54:15.553Z] [frontend-with-browser]  GET /admin 500 in 2588ms
+[2025-08-22T03:54:15.554Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/admin?_rsc=f4yja
+[2025-08-22T03:54:15.554Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T03:54:16.112Z] [frontend-with-browser]  GET /admin 200 in 521ms
+[2025-08-22T03:54:16.119Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/css/app/layout.css?v=1755834855619
+[2025-08-22T03:54:16.119Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:16.153Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1755834855619
+[2025-08-22T03:54:16.153Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:16.153Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-22T03:54:16.154Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:16.160Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-22T03:54:16.161Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:16.162Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/not-found.js
+[2025-08-22T03:54:16.162Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:16.162Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/admin/layout.js
+[2025-08-22T03:54:16.162Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:16.162Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/admin/page.js
+[2025-08-22T03:54:16.162Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:20.867Z] [frontend-with-browser]  GET / 200 in 398ms
+[2025-08-22T03:54:20.870Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/css/app/layout.css?v=1755834860496
+[2025-08-22T03:54:20.870Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:20.887Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1755834860496
+[2025-08-22T03:54:20.887Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:20.887Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-22T03:54:20.887Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:20.888Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-22T03:54:20.888Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:20.889Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/not-found.js
+[2025-08-22T03:54:20.889Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:20.889Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/page.js
+[2025-08-22T03:54:20.889Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:22.603Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/css/app/layout.css?v=1755834862314
+[2025-08-22T03:54:22.604Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:22.612Z] [frontend-with-browser]  GET / 200 in 311ms
+[2025-08-22T03:54:22.614Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1755834862314
+[2025-08-22T03:54:22.615Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:22.615Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-22T03:54:22.615Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:22.615Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-22T03:54:22.615Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:22.617Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/not-found.js
+[2025-08-22T03:54:22.617Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:22.617Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/page.js
+[2025-08-22T03:54:22.617Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:54:24.938Z] [frontend-with-browser]  GET / 200 in 322ms
+[2025-08-22T03:55:17.759Z] [frontend-with-browser]  ✓ Compiled in 963ms (3003 modules)
+[2025-08-22T03:55:29.996Z] [frontend-with-browser]  ✓ Compiled in 336ms (2853 modules)
+[2025-08-22T03:55:38.663Z] [frontend-with-browser]  ✓ Compiled in 288ms (2853 modules)
+[2025-08-22T03:57:59.248Z] [frontend-with-browser]  GET / 200 in 772ms
+[2025-08-22T03:57:59.258Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/css/app/layout.css?v=1755835078630
+[2025-08-22T03:57:59.258Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:57:59.261Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1755835078630
+[2025-08-22T03:57:59.262Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:57:59.271Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-22T03:57:59.271Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:57:59.271Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-22T03:57:59.271Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:57:59.271Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/not-found.js
+[2025-08-22T03:57:59.272Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:00.504Z] [frontend-with-browser]  GET / 200 in 319ms
+[2025-08-22T03:58:00.511Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/css/app/layout.css?v=1755835080200
+[2025-08-22T03:58:00.511Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:00.520Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1755835080200
+[2025-08-22T03:58:00.521Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:00.521Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-22T03:58:00.521Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:00.521Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-22T03:58:00.522Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:00.522Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/not-found.js
+[2025-08-22T03:58:00.522Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:14.887Z] [frontend-with-browser]  GET / 200 in 366ms
+[2025-08-22T03:58:55.893Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/css/app/layout.css?v=1755835135592
+[2025-08-22T03:58:55.894Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:55.896Z] [frontend-with-browser]  GET / 200 in 410ms
+[2025-08-22T03:58:55.908Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/main-app.js?v=1755835135592
+[2025-08-22T03:58:55.908Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:55.909Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app-pages-internals.js
+[2025-08-22T03:58:55.909Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:55.909Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/layout.js
+[2025-08-22T03:58:55.909Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:58:55.910Z] [frontend-with-browser] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/chunks/app/not-found.js
+[2025-08-22T03:58:55.910Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:59:06.146Z] [frontend-with-browser]  GET / 200 in 304ms
+[2025-08-22T04:09:24.224Z] [frontend-with-browser]  ✓ Compiled in 1383ms (2853 modules)
+[2025-08-22T04:09:38.599Z] [frontend-with-browser]  ✓ Compiled in 319ms (2853 modules)
+[2025-08-22T04:09:50.940Z] [frontend-with-browser]  ✓ Compiled in 365ms (2853 modules)
+[2025-08-22T04:10:16.264Z] [frontend-with-browser]  ✓ Compiled in 1739ms (2822 modules)
+[2025-08-22T04:10:59.258Z] [frontend-with-browser]  ✓ Compiled in 554ms (2814 modules)

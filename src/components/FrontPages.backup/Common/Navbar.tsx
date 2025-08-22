@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
                       pathname === "/front-pages/features/" ? "active" : ""
                     }`}
                   >
-                    Components
+                    Features
                   </Link>
                 </li>
 
@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
                       pathname.startsWith("/ui-kit/") ? "active" : ""
                     }`}
                   >
-                    Examples
+                    UI Kit
                   </Link>
                 </li>
 
@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
                       pathname === "/front-pages/team/" ? "active" : ""
                     }`}
                   >
-                    Showcase
+                    Our Team
                   </Link>
                 </li>
 
@@ -120,6 +120,17 @@ const Navbar: React.FC = () => {
                     }`}
                   >
                     FAQ's
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="/front-pages/contact/"
+                    className={`nav-link ${
+                      pathname === "/front-pages/contact/" ? "active" : ""
+                    }`}
+                  >
+                    Contact
                   </Link>
                 </li>
 

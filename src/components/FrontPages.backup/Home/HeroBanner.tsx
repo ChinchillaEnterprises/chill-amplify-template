@@ -36,15 +36,16 @@ const HeroBanner: React.FC = () => {
               textAlign: "center",
             }}
           >
-            <h1>Build Anything with AI + Components</h1>
+            <h1>Insights On-the-Go: Access Your Dashboard Anywhere, Anytime</h1>
             <p>
-              Tell Claude what you want to build. Watch it assemble 45+ ready-made
-              components into your vision. Blog, dashboard, e-commerce – it's all possible.
+              Our intuitive interface transforms complex data into actionable
+              insights, empowering you to make informed decisions with
+              confidence.
             </p>
 
-            <Link href="/admin/" className="fp-banner-button">
-              <i className="material-symbols-outlined">dashboard</i>
-              Explore Components
+            <Link href="/dashboard/ecommerce/" className="fp-banner-button">
+              <i className="material-symbols-outlined">person</i>
+              Get started - It is free
             </Link>
           </Box>
 
