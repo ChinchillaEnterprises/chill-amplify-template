@@ -1,13 +1,11 @@
 import * as React from "react"; 
 import Navbar from "@/components/FrontPages/Common/Navbar";
 import HeroBanner from "@/components/FrontPages/Home/HeroBanner";
-import KeyFeatures from "@/components/FrontPages/Common/KeyFeatures";
-import Widgets from "@/components/FrontPages/Common/Widgets";
-import Testimonials from "@/components/FrontPages/Common/Testimonials";
-import OurTeam from "@/components/FrontPages/Common/OurTeam";
-import FaqContent from "@/components/FrontPages/Common/FaqContent";
-import ContactUs from "@/components/FrontPages/Common/ContactUs";
-import Cta from "@/components/FrontPages/Common/Cta";
+import BuildingBlocks from "@/components/FrontPages/Home/BuildingBlocks";
+import ExampleShowcase from "@/components/FrontPages/Home/ExampleShowcase";
+import HowItWorks from "@/components/FrontPages/Home/HowItWorks";
+import ComponentsPreview from "@/components/FrontPages/Home/ComponentsPreview";
+import GetStarted from "@/components/FrontPages/Home/GetStarted";
 import Footer from "@/components/FrontPages/Common/Footer";
 
 export default function Home() {
@@ -18,19 +16,15 @@ export default function Home() {
 
         <HeroBanner />
 
-        <KeyFeatures />
+        <ExampleShowcase />
 
-        <Widgets />
+        <BuildingBlocks />
 
-        <Testimonials />
+        <HowItWorks />
 
-        <OurTeam />
+        <ComponentsPreview />
 
-        <FaqContent />
-
-        <ContactUs />
-
-        <Cta />
+        <GetStarted />
 
         <Footer />
       </div>
