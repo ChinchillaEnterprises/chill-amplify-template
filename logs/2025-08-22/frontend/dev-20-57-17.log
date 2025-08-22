@@ -1,0 +1,1815 @@
+[2025-08-22T01:57:17.798Z] Starting: npm run dev (Process ID: frontend)
+[2025-08-22T01:57:17.798Z] [frontend] ✅ Starting development server...
+[2025-08-22T01:57:17.993Z] [frontend] 
+> trezo-react@3.5.0 dev
+> next dev
+
+[2025-08-22T01:57:18.535Z] [frontend]    ▲ Next.js 15.5.0
+[2025-08-22T01:57:18.535Z] [frontend] 🔍 Detected port: 3000
+[2025-08-22T01:57:18.535Z] [frontend]    - Local:        http://localhost:3000
+   - Network:      http://192.168.1.186:3000
+
+ ✓ Starting...
+[2025-08-22T01:57:18.536Z] [frontend] ✅ Server ready on http://localhost:3000
+[2025-08-22T01:57:18.536Z] [frontend] ⏳ Waiting 1000ms before launching browser...
+[2025-08-22T01:57:19.537Z] [frontend] ✅ Launching test browser...
+[2025-08-22T01:57:19.653Z] [frontend]  ✓ Ready in 1180ms
+[2025-08-22T01:57:20.431Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[2025-08-22T01:57:20.506Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[2025-08-22T01:57:20.510Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-22T01:57:20.947Z] [frontend]  ○ Compiling /admin ...
+[2025-08-22T01:57:22.351Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-22T01:57:22.367Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[2025-08-22T01:57:22.997Z] [frontend] [ERROR]  ⨯ ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:57:26.582Z] [frontend] [ERROR]  ⨯ ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:57:26.801Z] [frontend]  GET / 500 in 5800ms
+[2025-08-22T01:57:26.801Z] [frontend]  GET /dashboard/ecommerce 500 in 539ms
+[2025-08-22T01:57:26.804Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/
+[2025-08-22T01:57:26.807Z] [frontend]  GET /admin 500 in 564ms
+[2025-08-22T01:57:26.807Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T01:57:27.190Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-22T01:57:27.259Z] [frontend] [BROWSER] [PAGE ERROR] Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+
+Error: Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at getNotFoundError (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:140:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getModuleBuildError (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:103:27)
+    at async (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:29:49)
+    at async (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:27:21)
+[2025-08-22T01:57:27.261Z] [frontend] [BROWSER] [LOG] [HMR] connected
+[2025-08-22T01:57:27.305Z] [frontend] [BROWSER] Console capture started for http://localhost:3000
+[2025-08-22T01:57:27.305Z] [frontend] 
+🎯 TEST BROWSER LAUNCHED!
+
+👉 Use the browser window that just opened (with green banner)
+📝 All console logs are being saved
+🔍 DevTools is open for debugging
+⚠️  Errors will flash red on screen
+
+Happy debugging! 🚀
+
+[2025-08-22T01:57:27.317Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:57:27.317Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T01:57:27.318Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T01:57:40.756Z] [frontend]  GET /admin 500 in 55ms
+[2025-08-22T01:57:40.989Z] [frontend] [BROWSER] [CLEAR] console.clear
+[2025-08-22T01:57:40.989Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:57:45.778Z] [frontend]  GET /admin 500 in 16ms
+[2025-08-22T01:57:45.779Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/admin
+[2025-08-22T01:57:45.783Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T01:57:45.998Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-22T01:57:46.066Z] [frontend] [BROWSER] [PAGE ERROR] Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+
+Error: Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at getNotFoundError (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:140:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getModuleBuildError (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:103:27)
+    at async (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:29:49)
+    at async (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:27:21)
+[2025-08-22T01:57:46.069Z] [frontend] [BROWSER] [LOG] [HMR] connected
+[2025-08-22T01:57:46.071Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:57:46.104Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T01:57:54.526Z] [frontend] [BROWSER] [CLEAR] console.clear
+[2025-08-22T01:57:54.526Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:57:54.798Z] [frontend] [BROWSER] [CLEAR] console.clear
+[2025-08-22T01:57:54.811Z] [frontend] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/webpack/413454d9aad747cc.webpack.hot-update.json
+[2025-08-22T01:57:54.811Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T01:57:54.812Z] [frontend] [BROWSER] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error
+[2025-08-22T01:57:54.815Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-22T01:57:54.816Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-22T01:57:54.837Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-22T01:57:55.013Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[2025-08-22T01:57:55.314Z] [frontend]  ✓ Compiled /_error in 791ms (2690 modules)
+[2025-08-22T01:57:57.348Z] [frontend]  GET /dashboard/ecommerce 404 in 2274ms
+[2025-08-22T01:57:57.360Z] [frontend]  GET /admin 200 in 2353ms
+[2025-08-22T01:57:57.375Z] [frontend]  GET /admin 200 in 2544ms
+[2025-08-22T01:57:57.745Z] [frontend]  GET /admin 200 in 440ms
+[2025-08-22T01:57:58.373Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T01:57:58.936Z] [frontend] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T02:01:31.294Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:01:31.337Z] [frontend]  ○ Compiling /admin/components/buttons ...
+[2025-08-22T02:01:31.417Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| 
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:31.421Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:31.646Z] [frontend] [ERROR]  ⨯ ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (683:9)
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:31.673Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (683:9)
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:31.674Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:31.858Z] [frontend] [ERROR]  ⨯ ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| 
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:31.859Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| 
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:31.863Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:31.873Z] [frontend]  GET /admin/components/buttons 500 in 1065ms
+[2025-08-22T02:01:31.874Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/admin/components/buttons?_rsc=1szk4
+[2025-08-22T02:01:31.874Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T02:01:31.961Z] [frontend]  GET /admin/components/buttons 500 in 21ms
+[2025-08-22T02:01:31.961Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/admin/components/buttons
+[2025-08-22T02:01:31.965Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T02:01:32.132Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-22T02:01:32.184Z] [frontend] [BROWSER] [PAGE ERROR] Module parse failed: Identifier 'Typography' has already been declared (683:9)
+File was processed with these loaders:
+ * ./node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+You may need an additional loader to handle the result of these loaders.
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+ModuleParseError: Module parse failed: Identifier 'Typography' has already been declared (683:9)
+File was processed with these loaders:
+ * ./node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+You may need an additional loader to handle the result of these loaders.
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:410378)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:411994)
+    at processResult (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:407859)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5650)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5879)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at Object.ReactRefreshLoader (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js:14:10)
+    at LOADER_EXECUTION (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4134)
+    at runSyncOrAsync (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4145)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5782)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5650)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5879)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at Object.transformSource (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js:45:17)
+    at LOADER_EXECUTION (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4134)
+    at runSyncOrAsync (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4145)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5782)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5142)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js:224:23)
+[2025-08-22T02:01:32.185Z] [frontend] [BROWSER] [LOG] [HMR] connected
+[2025-08-22T02:01:32.215Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+|
+[2025-08-22T02:01:32.216Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:36.850Z] [frontend]  GET /admin 500 in 9ms
+[2025-08-22T02:01:36.851Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/admin
+[2025-08-22T02:01:36.854Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T02:01:36.963Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-22T02:01:36.971Z] [frontend] [BROWSER] [PAGE ERROR] Module parse failed: Identifier 'Typography' has already been declared (683:9)
+File was processed with these loaders:
+ * ./node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+You may need an additional loader to handle the result of these loaders.
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+ModuleParseError: Module parse failed: Identifier 'Typography' has already been declared (683:9)
+File was processed with these loaders:
+ * ./node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+You may need an additional loader to handle the result of these loaders.
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:410378)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:411994)
+    at processResult (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:407859)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5650)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5879)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at Object.ReactRefreshLoader (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js:14:10)
+    at LOADER_EXECUTION (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4134)
+    at runSyncOrAsync (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4145)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5782)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5650)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5879)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at Object.transformSource (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js:45:17)
+    at LOADER_EXECUTION (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4134)
+    at runSyncOrAsync (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4145)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5782)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5142)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js:224:23)
+[2025-08-22T02:01:36.971Z] [frontend] [BROWSER] [LOG] [HMR] connected
+[2025-08-22T02:01:37.003Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+|
+[2025-08-22T02:01:37.003Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:38.055Z] [frontend] [BROWSER] [CLEAR] console.clear
+[2025-08-22T02:01:38.055Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (683:9)
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:38.056Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:38.228Z] [frontend] [ERROR]  ⨯ ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| 
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:38.230Z] [frontend] [BROWSER] [CLEAR] console.clear
+[2025-08-22T02:01:38.231Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| 
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:38.231Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:38.247Z] [frontend]  GET / 500 in 199ms
+[2025-08-22T02:01:38.248Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/
+[2025-08-22T02:01:38.250Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T02:01:38.362Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+[2025-08-22T02:01:38.372Z] [frontend] [BROWSER] [PAGE ERROR] Module parse failed: Identifier 'Typography' has already been declared (683:9)
+File was processed with these loaders:
+ * ./node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+You may need an additional loader to handle the result of these loaders.
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+ModuleParseError: Module parse failed: Identifier 'Typography' has already been declared (683:9)
+File was processed with these loaders:
+ * ./node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+You may need an additional loader to handle the result of these loaders.
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:410378)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:411994)
+    at processResult (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:407859)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5650)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5879)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at Object.ReactRefreshLoader (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/loader.js:14:10)
+    at LOADER_EXECUTION (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4134)
+    at runSyncOrAsync (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4145)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5782)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5650)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5879)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at Object.transformSource (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader.js:45:17)
+    at LOADER_EXECUTION (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4134)
+    at runSyncOrAsync (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4145)
+    at iterateNormalLoaders (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5782)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5142)
+    at r.callback (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+    at <unknown> (file:///Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js:224:23)
+[2025-08-22T02:01:38.400Z] [frontend] [BROWSER] [LOG] [HMR] connected
+[2025-08-22T02:01:38.400Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (711:9)
+| }
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+|
+[2025-08-22T02:01:38.401Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:39.019Z] [frontend] [BROWSER] [CLEAR] console.clear
+[2025-08-22T02:01:39.020Z] [frontend] [BROWSER] [ERROR] ./src/app/admin/components/buttons/page.tsx
+Module parse failed: Identifier 'Typography' has already been declared (683:9)
+| _c = ButtonsShowcase;
+| // Add missing import
+> import { Typography } from "__barrel_optimize__?names=Typography!=!@mui/material";
+| var _c;
+| $RefreshReg$(_c, "ButtonsShowcase");
+
+Import trace for requested module:
+./src/app/admin/components/buttons/page.tsx
+[2025-08-22T02:01:39.021Z] [frontend] [BROWSER] [LOG] {file: Object}
+[2025-08-22T02:01:39.023Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:01:40.533Z] [frontend]  ✓ Compiled / in 1517ms (2811 modules)
+[2025-08-22T02:01:40.537Z] [frontend] [BROWSER] [CLEAR] console.clear
+[2025-08-22T02:01:40.544Z] [frontend] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/_next/static/webpack/413454d9aad747cc.webpack.hot-update.json
+[2025-08-22T02:01:40.544Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T02:01:40.546Z] [frontend] [ERROR]  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[2025-08-22T02:01:40.551Z] [frontend] [BROWSER] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error
+[2025-08-22T02:01:41.238Z] [frontend]  GET / 200 in 649ms
+[2025-08-22T02:01:41.660Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T02:01:41.861Z] [frontend] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T02:01:41.862Z] [frontend] [BROWSER] [WARNING] Image with src "http://localhost:3000/images/logo-big.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[2025-08-22T02:01:49.003Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:01:49.707Z] [frontend]  ✓ Compiled in 709ms (2811 modules)
+[2025-08-22T02:01:49.714Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 715ms
+[2025-08-22T02:01:53.629Z] [frontend] [BROWSER] [WARNING] Image with src "/images/front-pages/shape3.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority
+[2025-08-22T02:01:55.244Z] [frontend] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/dashboard/ecommerce?_rsc=vusbg
+[2025-08-22T02:01:55.244Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T02:01:55.247Z] [frontend]  GET /dashboard/ecommerce 404 in 117ms
+[2025-08-22T02:01:55.852Z] [frontend] [BROWSER] [NETWORK ERROR] 404 Not Found - http://localhost:3000/dashboard/ecommerce
+[2025-08-22T02:01:55.855Z] [frontend]  GET /dashboard/ecommerce 404 in 573ms
+[2025-08-22T02:01:55.859Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T02:01:56.101Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T02:01:56.342Z] [frontend] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <meta>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <meta>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T02:01:58.050Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:01:58.292Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 243ms
+[2025-08-22T02:01:58.474Z] [frontend]  ✓ Compiled in 426ms (2811 modules)
+[2025-08-22T02:02:02.008Z] [frontend] [ERROR] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:02:02.008Z] [frontend] [ERROR] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:02:02.013Z] [frontend] [ERROR] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:02:02.074Z] [frontend]  GET /admin 200 in 701ms
+[2025-08-22T02:02:02.314Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T02:02:02.530Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:02:02.530Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:02:02.530Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:02:02.531Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:02:02.574Z] [frontend] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T02:02:05.751Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:02:06.097Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 345ms
+[2025-08-22T02:02:06.244Z] [frontend]  ✓ Compiled in 495ms (2811 modules)
+[2025-08-22T02:02:13.739Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:02:14.059Z] [frontend]  ✓ Compiled in 351ms (2811 modules)
+[2025-08-22T02:02:14.091Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 382ms
+[2025-08-22T02:07:13.671Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:07:14.781Z] [frontend]  ✓ Compiled in 1110ms (2746 modules)
+[2025-08-22T02:07:14.960Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 1267ms
+[2025-08-22T02:09:20.445Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:09:21.183Z] [frontend]  ✓ Compiled in 747ms (2746 modules)
+[2025-08-22T02:09:21.215Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 774ms
+[2025-08-22T02:09:48.952Z] [frontend] [ERROR] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:09:48.953Z] [frontend] [ERROR] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:48.957Z] [frontend] [ERROR] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:49.028Z] [frontend]  GET /admin 200 in 649ms
+[2025-08-22T02:09:49.313Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T02:09:49.521Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:09:49.521Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:49.521Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:49.523Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:49.573Z] [frontend] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T02:09:50.980Z] [frontend]  GET /admin 200 in 360ms
+[2025-08-22T02:09:51.199Z] [frontend] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T02:09:51.345Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:09:51.346Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:51.346Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:51.347Z] [frontend] [BROWSER] [WARNING] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:09:51.394Z] [frontend] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T02:10:24.126Z] [frontend]  GET / 200 in 274ms
+[2025-08-22T02:10:29.423Z] [frontend]  GET /admin 200 in 314ms
+[2025-08-22T02:10:33.261Z] [frontend]  GET /admin 200 in 270ms
+[2025-08-22T02:11:31.076Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:11:32.414Z] [frontend]  ✓ Compiled in 1356ms (2704 modules)
+[2025-08-22T02:11:32.474Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 1411ms
+[2025-08-22T02:11:59.975Z] [frontend] [ERROR] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:11:59.978Z] [frontend] [ERROR] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:11:59.978Z] [frontend] [ERROR] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:12:00.101Z] [frontend]  GET /admin 200 in 591ms
+[2025-08-22T02:12:04.613Z] [frontend]  ✓ Compiled /_not-found in 221ms (1534 modules)
+[2025-08-22T02:12:04.654Z] [frontend]  GET /admin/charts/line 404 in 264ms
+[2025-08-22T02:12:04.946Z] [frontend]  GET /admin/charts/line 404 in 281ms
+[2025-08-22T02:12:06.083Z] [frontend] [ERROR] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:12:06.083Z] [frontend] [ERROR] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:12:06.088Z] [frontend] [ERROR] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:12:06.137Z] [frontend]  GET /admin 200 in 290ms
+[2025-08-22T02:12:19.486Z] [frontend]  ✓ Compiled /admin/components/buttons in 465ms (1598 modules)
+[2025-08-22T02:12:19.546Z] [frontend]  GET /admin/components/buttons 200 in 537ms
+[2025-08-22T02:12:20.746Z] [frontend]  GET /admin/components/typography 404 in 38ms
+[2025-08-22T02:12:21.039Z] [frontend]  GET /admin/components/typography 404 in 285ms
+[2025-08-22T02:12:21.439Z] [frontend]  GET /admin/components/colors 404 in 17ms
+[2025-08-22T02:12:21.646Z] [frontend]  GET /admin/components/colors 404 in 204ms
+[2025-08-22T02:12:22.012Z] [frontend]  GET /admin/components/chips 404 in 17ms
+[2025-08-22T02:12:22.208Z] [frontend]  GET /admin/components/chips 404 in 194ms
+[2025-08-22T02:12:22.566Z] [frontend]  GET /admin/components/chips 404 in 12ms
+[2025-08-22T02:12:22.759Z] [frontend]  GET /admin/components/chips 404 in 189ms
+[2025-08-22T02:12:25.249Z] [frontend]  GET /admin/components/checkbox 404 in 24ms
+[2025-08-22T02:12:25.457Z] [frontend]  GET /admin/components/checkbox 404 in 198ms
+[2025-08-22T02:12:26.491Z] [frontend]  GET /admin/components/icons 404 in 22ms
+[2025-08-22T02:12:26.695Z] [frontend]  GET /admin/components/icons 404 in 194ms
+[2025-08-22T02:12:34.284Z] [frontend]  GET /admin 200 in 44ms
+[2025-08-22T02:12:43.518Z] [frontend]  GET /apps/chat 404 in 29ms
+[2025-08-22T02:12:43.760Z] [frontend]  GET /apps/chat 404 in 238ms
+[2025-08-22T02:12:45.286Z] [frontend] [ERROR] MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+[2025-08-22T02:12:45.286Z] [frontend] [ERROR] MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:12:45.291Z] [frontend] [ERROR] MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+[2025-08-22T02:12:45.343Z] [frontend]  GET /admin 200 in 286ms
+[2025-08-22T02:16:51.634Z] [frontend]  GET /admin/components/typography 404 in 33ms
+[2025-08-22T02:16:51.937Z] [frontend]  GET /admin/components/typography 404 in 274ms
+[2025-08-22T02:16:56.590Z] [frontend]  GET /admin/components/buttons 200 in 36ms
+[2025-08-22T02:16:58.065Z] [frontend]  GET /admin/components/colors 404 in 25ms
+[2025-08-22T02:16:58.290Z] [frontend]  GET /admin/components/colors 404 in 217ms
+[2025-08-22T02:16:58.960Z] [frontend]  GET /admin/components/icons 404 in 20ms
+[2025-08-22T02:16:59.188Z] [frontend]  GET /admin/components/icons 404 in 221ms
+[2025-08-22T02:17:00.065Z] [frontend]  GET /admin/components/badges 404 in 20ms
+[2025-08-22T02:17:00.292Z] [frontend]  GET /admin/components/badges 404 in 217ms
+[2025-08-22T02:17:02.056Z] [frontend]  GET /admin/components/text-fields 404 in 16ms
+[2025-08-22T02:17:02.278Z] [frontend]  GET /admin/components/text-fields 404 in 216ms
+[2025-08-22T02:17:04.745Z] [frontend]  GET /admin/components/checkbox 404 in 6ms
+[2025-08-22T02:17:04.967Z] [frontend]  GET /admin/components/checkbox 404 in 213ms
+[2025-08-22T02:18:54.295Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:18:55.174Z] [frontend]  ✓ Compiled in 892ms (2704 modules)
+[2025-08-22T02:18:55.292Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 1002ms
+[2025-08-22T02:19:39.783Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:19:40.550Z] [frontend]  GET /admin 200 in 706ms
+[2025-08-22T02:19:40.575Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 784ms
+[2025-08-22T02:19:40.592Z] [frontend]  ○ Compiling /admin/components/checkbox ...
+[2025-08-22T02:19:40.680Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:19:41.648Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 974ms
+[2025-08-22T02:19:41.792Z] [frontend]  ✓ Compiled /admin/components/checkbox in 2s (2799 modules)
+[2025-08-22T02:19:41.931Z] [frontend]  GET /dashboard/ecommerce 404 in 2077ms
+[2025-08-22T02:19:41.934Z] [frontend]  GET /admin/components/checkbox 200 in 2087ms
+[2025-08-22T02:19:41.950Z] [frontend]  GET /dashboard/ecommerce 404 in 68ms
+[2025-08-22T02:19:41.951Z] [frontend]  GET /admin 200 in 149ms
+[2025-08-22T02:19:42.358Z] [frontend]  GET /dashboard/ecommerce 404 in 420ms
+[2025-08-22T02:19:42.362Z] [frontend]  GET /admin/components/checkbox 200 in 429ms
+[2025-08-22T02:25:10.200Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:25:11.333Z] [frontend]  ✓ Compiled in 1168ms (1190 modules)
+[2025-08-22T02:25:11.349Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 1150ms
+[2025-08-22T02:25:16.696Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:25:16.828Z] [frontend]  ✓ Compiled in 134ms (1190 modules)
+[2025-08-22T02:25:16.838Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 143ms
+[2025-08-22T02:26:49.287Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:26:49.820Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 539ms
+[2025-08-22T02:26:50.207Z] [frontend]  ✓ Compiled in 930ms (2796 modules)
+[2025-08-22T02:29:31.335Z] [frontend] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T02:29:31.869Z] [frontend]  GET /admin 200 in 494ms
+[2025-08-22T02:29:31.872Z] [frontend]  GET /admin/components/checkbox 200 in 493ms
+[2025-08-22T02:29:31.899Z] [frontend] [BROWSER] [LOG] [Fast Refresh] done in 567ms
+[2025-08-22T02:29:31.952Z] [frontend]  ○ Compiling /_not-found ...
+[2025-08-22T02:29:32.679Z] [frontend]  ✓ Compiled /_not-found in 1349ms (2799 modules)
+[2025-08-22T02:29:32.719Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7644)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7696) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:32.750Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.760Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.767Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.781Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/components/checkbox/page.js:22:7717)
+    at Object.<anonymous> (.next/server/app/admin/components/checkbox/page.js:22:7793) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin/components/checkbox'
+}
+[2025-08-22T02:29:32.796Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/page.js:2:22230)
+    at Object.<anonymous> (.next/server/app/admin/page.js:2:22297) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin'
+}
+[2025-08-22T02:29:32.813Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:32.823Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:32.838Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:32.851Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.863Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.870Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.881Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.887Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.893Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.903Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.913Z] [frontend] [ERROR] Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/components/checkbox/page.js:22:7717)
+    at Object.<anonymous> (.next/server/app/admin/components/checkbox/page.js:22:7793) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin/components/checkbox'
+}
+[2025-08-22T02:29:32.927Z] [frontend] [ERROR] Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/page.js:2:22230)
+    at Object.<anonymous> (.next/server/app/admin/page.js:2:22297) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin'
+}
+[2025-08-22T02:29:32.928Z] [frontend]  GET /dashboard/ecommerce 500 in 1540ms
+[2025-08-22T02:29:32.928Z] [frontend]  GET /dashboard/ecommerce 500 in 161ms
+[2025-08-22T02:29:32.939Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:32.953Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:32.966Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.976Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.982Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.987Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:32.997Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.003Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.003Z] [frontend]  GET /admin/components/checkbox 500 in 1027ms
+[2025-08-22T02:29:33.003Z] [frontend]  GET /admin/components/checkbox 500 in 76ms
+ GET /admin 500 in 972ms
+ GET /admin 500 in 76ms
+[2025-08-22T02:29:33.005Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/admin
+[2025-08-22T02:29:33.020Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/components/checkbox/page.js:22:7717)
+    at Object.<anonymous> (.next/server/app/admin/components/checkbox/page.js:22:7793) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin/components/checkbox'
+}
+[2025-08-22T02:29:33.025Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T02:29:33.047Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/page.js:2:22230)
+    at Object.<anonymous> (.next/server/app/admin/page.js:2:22297) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin'
+}
+[2025-08-22T02:29:33.056Z] [frontend]  GET /admin/components/checkbox 500 in 364ms
+ GET /admin 500 in 365ms
+[2025-08-22T02:29:33.084Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.122Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.140Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.147Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.159Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.165Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.176Z] [frontend] [ERROR] Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/components/checkbox/page.js:22:7717)
+    at Object.<anonymous> (.next/server/app/admin/components/checkbox/page.js:22:7793) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin/components/checkbox'
+}
+[2025-08-22T02:29:33.196Z] [frontend] [ERROR] Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/page.js:2:22230)
+    at Object.<anonymous> (.next/server/app/admin/page.js:2:22297) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin'
+}
+[2025-08-22T02:29:33.239Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.250Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.263Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.270Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.280Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.286Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.303Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.317Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.328Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7644)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7696) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.341Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.347Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.352Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.366Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.374Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.383Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.388Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.389Z] [frontend]  GET /dashboard/ecommerce 500 in 433ms
+[2025-08-22T02:29:33.389Z] [frontend]  GET /dashboard/ecommerce 500 in 36ms
+[2025-08-22T02:29:33.410Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/_not-found/page.js:2:7644)
+    at Object.<anonymous> (.next/server/app/_not-found/page.js:2:7696) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.418Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.424Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.434Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.446Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/_not-found/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:29:33.457Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.464Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.470Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:29:33.470Z] [frontend]  GET /dashboard/ecommerce 500 in 75ms
+[2025-08-22T02:29:33.470Z] [frontend]  GET /dashboard/ecommerce 500 in 36ms
+[2025-08-22T02:30:27.294Z] [frontend]  ✓ Compiled in 324ms (2799 modules)
+[2025-08-22T02:31:44.638Z] [frontend]  ✓ Compiled in 687ms (2796 modules)
+[2025-08-22T02:33:04.136Z] [frontend]  ✓ Compiled in 561ms (2796 modules)
+[2025-08-22T02:33:58.236Z] [frontend]  ✓ Compiled in 335ms (2796 modules)
+[2025-08-22T02:35:57.538Z] [frontend]  ✓ Compiled in 456ms (2796 modules)
+[2025-08-22T02:36:39.384Z] [frontend]  ✓ Compiled in 231ms (2796 modules)
+[2025-08-22T02:37:27.672Z] [frontend]  ✓ Compiled in 245ms (2796 modules)
+[2025-08-22T02:38:22.993Z] [frontend]  ✓ Compiled in 707ms (2796 modules)
+[2025-08-22T02:39:20.256Z] [frontend]  ✓ Compiled in 281ms (2796 modules)
+[2025-08-22T02:40:09.439Z] [frontend]  ✓ Compiled in 242ms (2796 modules)
+[2025-08-22T02:40:56.666Z] [frontend]  ✓ Compiled in 310ms (2796 modules)
+[2025-08-22T02:41:50.529Z] [frontend]  ✓ Compiled in 375ms (2796 modules)
+[2025-08-22T02:42:42.826Z] [frontend]  ✓ Compiled in 233ms (2796 modules)
+[2025-08-22T02:43:37.290Z] [frontend]  ✓ Compiled in 623ms (2796 modules)
+[2025-08-22T02:44:15.052Z] [frontend]  ✓ Compiled in 235ms (2796 modules)
+[2025-08-22T02:44:58.726Z] [frontend]  ✓ Compiled in 319ms (2796 modules)
+[2025-08-22T02:45:29.765Z] [frontend]  ✓ Compiled in 442ms (2796 modules)
+[2025-08-22T02:46:16.210Z] [frontend]  ✓ Compiled in 367ms (2796 modules)
+[2025-08-22T02:46:36.537Z] [frontend]  ✓ Compiled in 233ms (2796 modules)
+[2025-08-22T02:47:08.433Z] [frontend]  ✓ Compiled in 254ms (2796 modules)
+[2025-08-22T02:47:39.163Z] [frontend]  ✓ Compiled in 225ms (2796 modules)
+[2025-08-22T02:48:05.488Z] [frontend]  ✓ Compiled in 379ms (2796 modules)
+[2025-08-22T02:48:17.945Z] [frontend]  ✓ Compiled in 224ms (2796 modules)
+[2025-08-22T02:49:04.822Z] [frontend]  ✓ Compiled in 357ms (2796 modules)
+[2025-08-22T02:49:30.722Z] [frontend]  ✓ Compiled in 239ms (2796 modules)
+[2025-08-22T02:59:34.313Z] [frontend]  GET /admin 200 in 156ms
+[2025-08-22T02:59:34.522Z] [frontend] [BROWSER] [PAGE ERROR] Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:35062)
+    at oI (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:75810)
+    at oq (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:85111)
+    at ik (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:114682)
+    at http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:110730
+    at iu (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:110831)
+    at iX (http://localhost:3000/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js:1:132934)
+    at MessagePort.w (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:63951)
+[2025-08-22T02:59:35.025Z] [frontend]  ○ Compiling /admin/components/badges ...
+[2025-08-22T02:59:35.193Z] [frontend]  ✓ Compiled /admin/components/badges in 668ms (1615 modules)
+[2025-08-22T02:59:36.828Z] [frontend]  ✓ Compiled in 1494ms (2877 modules)
+[2025-08-22T02:59:36.990Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/admin/components/buttons/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/page.js:2:22590)
+    at Object.<anonymous> (.next/server/app/admin/page.js:2:22657) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin'
+}
+[2025-08-22T02:59:36.995Z] [frontend]  GET /admin/components/buttons 200 in 2482ms
+[2025-08-22T02:59:36.995Z] [frontend]  GET /admin/components/colors 200 in 2482ms
+[2025-08-22T02:59:36.996Z] [frontend] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/buttons. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T02:59:36.996Z] [frontend]  GET /admin/components/typography 200 in 2482ms
+ GET /admin/components/icons 200 in 2483ms
+ GET /admin/components/badges 200 in 2483ms
+[2025-08-22T02:59:36.997Z] [frontend] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/colors. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T02:59:36.997Z] [frontend] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/typography. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T02:59:36.997Z] [frontend] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/icons. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T02:59:36.998Z] [frontend] [BROWSER] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/components/badges. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:164938
+    at t (http://localhost:3000/_next/static/chunks/1255-bb5efee9881f3da5.js:1:165431)
+[2025-08-22T02:59:37.008Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/admin/components/buttons/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:59:37.023Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:59:37.029Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:59:37.038Z] [frontend] [ERROR] Error: Cannot find module './9195.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/admin/components/buttons/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/admin/page.js:2:22590)
+    at Object.<anonymous> (.next/server/app/admin/page.js:2:22657) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/admin'
+}
+[2025-08-22T02:59:37.056Z] [frontend] [ERROR]  ⨯ Error: Cannot find module './5611.js'
+Require stack:
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/webpack-runtime.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/.next/server/app/admin/components/buttons/page.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/require.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/load-components.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/utils.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/options.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/swc/index.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/parse-module.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/build/analysis/get-page-static-info.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/router-server.js
+- /Users/abelinochinchilla/Repos/CHI/chill-amplify-template/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:378)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:425) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[2025-08-22T02:59:37.067Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:59:37.073Z] [frontend] [ERROR]  ⨯ TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:59:37.078Z] [frontend] [ERROR] TypeError: Cannot read properties of undefined (reading '/_app')
+    at new Promise (<anonymous>)
+[2025-08-22T02:59:37.079Z] [frontend]  GET /admin 500 in 1784ms
+[2025-08-22T02:59:37.079Z] [frontend]  GET /admin 500 in 41ms
+[2025-08-22T02:59:37.079Z] [frontend] [BROWSER] [NETWORK ERROR] 500 Internal Server Error - http://localhost:3000/admin
+[2025-08-22T02:59:37.083Z] [frontend] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2025-08-22T02:59:37.589Z] [frontend]  ○ Compiling /admin/charts/line ...
+[2025-08-22T02:59:38.514Z] [frontend]  ✓ Compiled /admin/charts/line in 1430ms (2931 modules)

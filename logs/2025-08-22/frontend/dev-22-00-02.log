@@ -1,0 +1,226 @@
+[2025-08-22T03:00:02.755Z] Starting: npm run dev (Process ID: frontend-with-browser)
+[2025-08-22T03:00:02.755Z] [frontend-with-browser] ✅ Starting development server...
+[2025-08-22T03:00:02.905Z] [frontend-with-browser] 
+> trezo-react@3.5.0 dev
+> next dev
+
+[2025-08-22T03:00:03.437Z] [frontend-with-browser]    ▲ Next.js 15.5.0
+[2025-08-22T03:00:03.437Z] [frontend-with-browser] 🔍 Detected port: 3000
+[2025-08-22T03:00:03.437Z] [frontend-with-browser]    - Local:        http://localhost:3000
+   - Network:      http://192.168.1.186:3000
+
+ ✓ Starting...
+[2025-08-22T03:00:03.437Z] [frontend-with-browser] ✅ Server ready on http://localhost:3000
+[2025-08-22T03:00:03.437Z] [frontend-with-browser] ⏳ Waiting 1000ms before launching browser...
+[2025-08-22T03:00:04.438Z] [frontend-with-browser] ✅ Launching test browser...
+[2025-08-22T03:00:04.607Z] [frontend-with-browser]  ✓ Ready in 1229ms
+[2025-08-22T03:00:05.901Z] [frontend-with-browser]  ○ Compiling / ...
+[2025-08-22T03:00:06.969Z] [frontend-with-browser]  ✓ Compiled / in 1573ms (2236 modules)
+[2025-08-22T03:00:07.663Z] [frontend-with-browser]  GET / 200 in 2274ms
+[2025-08-22T03:00:07.861Z] [frontend-with-browser] [BROWSER] Console capture started for http://localhost:3000
+[2025-08-22T03:00:07.867Z] [frontend-with-browser] 
+🎯 TEST BROWSER LAUNCHED!
+
+👉 Use the browser window that just opened (with green banner)
+📝 All console logs are being saved
+🔍 DevTools is open for debugging
+⚠️  Errors will flash red on screen
+
+Happy debugging! 🚀
+
+[2025-08-22T03:00:08.378Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T03:00:08.730Z] [frontend-with-browser] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T03:00:08.732Z] [frontend-with-browser] [BROWSER] [WARNING] Image with src "http://localhost:3000/images/logo-big.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[2025-08-22T03:00:08.813Z] [frontend-with-browser] [BROWSER] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2025-08-22T03:00:13.513Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:00:13.851Z] [frontend-with-browser]  ○ Compiling /admin ...
+[2025-08-22T03:00:13.854Z] [frontend-with-browser]  ✓ Compiled /admin in 521ms (2303 modules)
+[2025-08-22T03:00:14.403Z] [frontend-with-browser]  GET /admin 200 in 1075ms
+[2025-08-22T03:00:14.618Z] [frontend-with-browser] [BROWSER] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[2025-08-22T03:00:14.841Z] [frontend-with-browser] [BROWSER] [PAGE ERROR] Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <meta>
+                    <MetadataTree>
+                      <__next_metadata_boundary__>
+                        <__next_metadata_boundary__>
+                          <div
++                           hidden={true}
+-                           hidden={null}
+-                           id="test-browser-banner"
+-                           style={{position:"fixed",top:"0px",left:"0px",right:"0px",background-image:"initial",background-position-x:"ini...", ...}}
+                          >
++                           <Suspense fallback={null}>
+-                           🧪 TEST BROWSER - All console logs are being captured 📝
+                  ...
+
+    at throwOnHydrationMismatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:4506:11)
+    at updateSuspenseComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9947:15)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:11173:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9)
+    at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[2025-08-22T03:00:20.353Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:00:20.781Z] [frontend-with-browser]  ✓ Compiled /admin/components/checkbox in 500ms (2450 modules)
+[2025-08-22T03:00:20.860Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 508ms
+[2025-08-22T03:00:20.861Z] [frontend-with-browser]  GET /admin/components/checkbox 200 in 586ms
+[2025-08-22T03:00:22.600Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:00:22.951Z] [frontend-with-browser]  ✓ Compiled /admin/components/switch in 468ms (2465 modules)
+[2025-08-22T03:00:23.008Z] [frontend-with-browser]  GET /admin/components/switch 200 in 538ms
+[2025-08-22T03:00:23.008Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 409ms
+[2025-08-22T03:00:28.078Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:00:28.379Z] [frontend-with-browser]  ✓ Compiled /admin/components/tables in 455ms (2488 modules)
+[2025-08-22T03:00:28.391Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 313ms
+[2025-08-22T03:00:28.453Z] [frontend-with-browser]  GET /admin/components/tables 200 in 549ms
+[2025-08-22T03:00:45.685Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:00:45.971Z] [frontend-with-browser]  ✓ Compiled /admin/components/accordion in 388ms (2497 modules)
+[2025-08-22T03:00:46.024Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 339ms
+[2025-08-22T03:00:46.025Z] [frontend-with-browser]  GET /admin/components/accordion 200 in 452ms
+[2025-08-22T03:00:48.390Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] rebuilding
+[2025-08-22T03:00:48.724Z] [frontend-with-browser]  ✓ Compiled /admin/components/snackbars in 422ms (2542 modules)
+[2025-08-22T03:00:48.779Z] [frontend-with-browser]  GET /admin/components/snackbars 200 in 487ms
+[2025-08-22T03:00:48.779Z] [frontend-with-browser] [BROWSER] [LOG] [Fast Refresh] done in 390ms

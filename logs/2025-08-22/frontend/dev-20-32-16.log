@@ -1,0 +1,103 @@
+[2025-08-22T01:32:16.433Z] Starting: npm run dev (Process ID: frontend)
+[2025-08-22T01:32:16.647Z] [frontend] 
+> trezo-react@3.5.0 dev
+> next dev
+
+[2025-08-22T01:32:17.340Z] [frontend]    ▲ Next.js 15.5.0
+[2025-08-22T01:32:17.340Z] [frontend]    - Local:        http://localhost:3000
+   - Network:      http://192.168.1.186:3000
+
+ ✓ Starting...
+[2025-08-22T01:32:19.362Z] [frontend]  ✓ Ready in 2.1s
+[2025-08-22T01:33:03.381Z] [frontend]  ○ Compiling / ...
+[2025-08-22T01:33:08.114Z] [frontend]  ✓ Compiled / in 5.2s (2505 modules)
+[2025-08-22T01:33:08.733Z] [frontend]  GET / 200 in 5881ms
+[2025-08-22T01:35:21.349Z] [frontend]  GET / 200 in 267ms
+[2025-08-22T01:35:22.971Z] [frontend]  ○ Compiling /authentication/sign-in ...
+[2025-08-22T01:35:22.980Z] [frontend]  ✓ Compiled /authentication/sign-in in 571ms (2244 modules)
+[2025-08-22T01:35:23.047Z] [frontend]  GET /authentication/sign-in 200 in 655ms
+[2025-08-22T01:35:25.673Z] [frontend]  ✓ Compiled /authentication/sign-up in 286ms (2252 modules)
+[2025-08-22T01:35:25.715Z] [frontend]  GET /authentication/sign-up 200 in 339ms
+[2025-08-22T01:35:28.077Z] [frontend]  GET /authentication/sign-up 200 in 37ms
+[2025-08-22T01:35:30.789Z] [frontend]  GET /authentication/sign-in 200 in 48ms
+[2025-08-22T01:35:33.117Z] [frontend]  ✓ Compiled /_not-found in 224ms (2256 modules)
+[2025-08-22T01:35:33.159Z] [frontend]  GET /dashboard/ecommerce 404 in 272ms
+[2025-08-22T01:35:33.780Z] [frontend]  GET /dashboard/ecommerce 404 in 614ms
+[2025-08-22T01:35:36.042Z] [frontend]  GET /dashboard/crm 404 in 27ms
+[2025-08-22T01:35:36.483Z] [frontend]  GET /dashboard/crm 404 in 429ms
+[2025-08-22T01:35:37.608Z] [frontend]  GET /dashboard/ecommerce 404 in 29ms
+[2025-08-22T01:35:37.966Z] [frontend]  GET /dashboard/ecommerce 404 in 353ms
+[2025-08-22T01:35:38.837Z] [frontend]  GET /dashboard/project-management 404 in 23ms
+[2025-08-22T01:35:39.195Z] [frontend]  GET /dashboard/project-management 404 in 350ms
+[2025-08-22T01:35:39.655Z] [frontend]  GET /dashboard/helpdesk 404 in 25ms
+[2025-08-22T01:35:39.925Z] [frontend]  GET /dashboard/helpdesk 404 in 262ms
+[2025-08-22T01:35:40.344Z] [frontend]  GET /dashboard/analytics 404 in 19ms
+[2025-08-22T01:35:40.688Z] [frontend]  GET /dashboard/analytics 404 in 341ms
+[2025-08-22T01:35:41.310Z] [frontend]  GET /dashboard/crypto 404 in 383ms
+[2025-08-22T01:35:41.820Z] [frontend]  GET /dashboard/sales 404 in 274ms
+[2025-08-22T01:35:50.869Z] [frontend]  GET /front-pages/features 404 in 39ms
+[2025-08-22T01:35:51.237Z] [frontend]  GET /front-pages/features 404 in 358ms
+[2025-08-22T01:35:56.801Z] [frontend]  GET / 200 in 62ms
+[2025-08-22T01:36:10.507Z] [frontend]  GET /dashboard/ecommerce 404 in 42ms
+[2025-08-22T01:36:11.234Z] [frontend]  GET /dashboard/ecommerce 404 in 720ms
+[2025-08-22T01:36:12.907Z] [frontend]  GET /dashboard/ecommerce 404 in 27ms
+[2025-08-22T01:36:13.339Z] [frontend]  GET /dashboard/ecommerce 404 in 425ms
+[2025-08-22T01:44:17.882Z] [frontend]  ✓ Compiled in 530ms (935 modules)
+[2025-08-22T01:44:57.835Z] [frontend]  ✓ Compiled in 256ms (935 modules)
+[2025-08-22T01:47:08.535Z] [frontend]  GET / 200 in 115ms
+[2025-08-22T01:47:09.008Z] [frontend]  ✓ Compiled in 611ms (2241 modules)
+[2025-08-22T01:47:09.086Z] [frontend]  GET / 200 in 75ms
+[2025-08-22T01:49:55.671Z] [frontend]  GET / 200 in 82ms
+[2025-08-22T01:49:56.040Z] [frontend]  ✓ Compiled in 475ms (2241 modules)
+[2025-08-22T01:49:56.175Z] [frontend]  GET / 200 in 133ms
+[2025-08-22T01:54:24.983Z] [frontend]  GET / 200 in 463ms
+[2025-08-22T01:54:26.624Z] [frontend]  ✓ Compiled /_not-found in 163ms (1309 modules)
+[2025-08-22T01:54:26.675Z] [frontend]  GET /dashboard/ecommerce 404 in 216ms
+[2025-08-22T01:54:27.140Z] [frontend]  GET /dashboard/ecommerce 404 in 456ms
+[2025-08-22T01:54:28.568Z] [frontend]  GET /dashboard/ecommerce 404 in 27ms
+[2025-08-22T01:54:28.964Z] [frontend]  GET /dashboard/ecommerce 404 in 389ms
+[2025-08-22T01:55:59.386Z] [frontend]  GET / 200 in 382ms
+[2025-08-22T01:56:00.158Z] [frontend]  GET / 200 in 153ms
+[2025-08-22T01:56:01.397Z] [frontend]  ✓ Compiled /authentication/sign-up in 327ms (1312 modules)
+[2025-08-22T01:56:01.482Z] [frontend]  GET /authentication/sign-up 200 in 418ms
+[2025-08-22T01:56:04.175Z] [frontend]  ○ Compiling /ui-kit/buttons ...
+[2025-08-22T01:56:05.103Z] [frontend]  ✓ Compiled /ui-kit/buttons in 1427ms (2384 modules)
+[2025-08-22T01:56:05.222Z] [frontend]  GET /ui-kit/buttons 200 in 1557ms
+[2025-08-22T01:56:07.946Z] [frontend]  ✓ Compiled /_not-found in 189ms (1394 modules)
+[2025-08-22T01:56:08.012Z] [frontend]  GET /dashboard/ecommerce 404 in 259ms
+[2025-08-22T01:56:08.553Z] [frontend]  GET /dashboard/ecommerce 404 in 537ms
+[2025-08-22T01:56:14.728Z] [frontend] [ERROR] MUI: The LoadingButton component functionality is now part of the Button component from Material UI.
+
+You should use `import Button from '@mui/material/Button'`
+or `import { Button } from '@mui/material'`
+[2025-08-22T01:56:14.766Z] [frontend]  GET /ui-kit/buttons 200 in 474ms
+[2025-08-22T01:56:18.882Z] [frontend]  GET /dashboard/ecommerce 404 in 42ms
+[2025-08-22T01:56:19.225Z] [frontend]  GET /dashboard/ecommerce 404 in 345ms
+[2025-08-22T01:56:37.996Z] [frontend]  ○ Compiling /admin ...
+[2025-08-22T01:56:38.250Z] [frontend] [ERROR]  ⨯ ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:56:40.383Z] [frontend] [ERROR]  ⨯ ./src/app/admin/page.tsx:15:1
+Module not found: Can't resolve '@mui/material/Grid2'
+  13 |   InputAdornment
+  14 | } from "@mui/material";
+> 15 | import Grid from "@mui/material/Grid2";
+     | ^
+  16 | import {
+  17 |   Search as SearchIcon,
+  18 |   SmartButton as ButtonIcon,
+
+https://nextjs.org/docs/messages/module-not-found
+[2025-08-22T01:56:40.834Z] [frontend]  GET /admin 500 in 3365ms
+[2025-08-22T01:56:40.834Z] [frontend]  GET /dashboard/ecommerce 500 in 835ms
+[2025-08-22T01:56:40.843Z] [frontend]  GET /dashboard/ecommerce 500 in 3ms
+[2025-08-22T01:56:40.868Z] [frontend]  GET /dashboard/ecommerce 500 in 9ms
+[2025-08-22T01:56:40.877Z] [frontend]  GET /dashboard/ecommerce 500 in 5ms
