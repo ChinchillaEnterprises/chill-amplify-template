@@ -17,7 +17,7 @@ import {
 } from "@mui/material";
 import Link from "next/link";
 import { 
-  Play as PlayIcon,
+  PlayArrow as PlayIcon,
   Code as CodeIcon,
   School as LearnIcon,
   Rocket as RocketIcon,
