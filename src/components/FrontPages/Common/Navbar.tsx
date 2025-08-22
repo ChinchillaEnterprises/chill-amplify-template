@@ -40,20 +40,9 @@ const Navbar: React.FC = () => {
       <div id="navbar" className={`fp-navbar-area transition ${isSticky ? "sticky" : ""}`}>
         <div className="container">
           <nav className="navbar navbar-expand-lg">
-            <Link className="navbar-brand" href="/">
-              <Image
-                src="/images/logo-big.svg"
-                alt="logo"
-                width={142}
-                height={38}
-              />
-              <Image
-                src="/images/white-logo-big.svg"
-                className="d-none"
-                alt="logo"
-                width={142}
-                height={38}
-              />
+            <Link className="navbar-brand" href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+              <span style={{ fontSize: '1.5rem', marginRight: '8px' }}>🎨</span>
+              <span style={{ fontWeight: 600, fontSize: '1.25rem', color: 'inherit' }}>Chill Components</span>
             </Link>
 
             <button className="navbar-toggler">
@@ -81,83 +70,48 @@ const Navbar: React.FC = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/front-pages/features/"
-                    className={`nav-link ${
-                      pathname === "/front-pages/features/" ? "active" : ""
-                    }`}
+                    href="#examples"
+                    className={`nav-link`}
                   >
-                    Features
+                    Examples
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link
-                    href="/ui-kit/buttons/"
+                    href="/admin"
                     className={`nav-link ${
-                      pathname.startsWith("/ui-kit/") ? "active" : ""
+                      pathname.startsWith("/admin") ? "active" : ""
                     }`}
                   >
-                    UI Kit
+                    Components
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link
-                    href="/front-pages/team/"
+                    href="/admin/introduction"
                     className={`nav-link ${
-                      pathname === "/front-pages/team/" ? "active" : ""
+                      pathname === "/admin/introduction" ? "active" : ""
                     }`}
                   >
-                    Our Team
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/front-pages/faq/"
-                    className={`nav-link ${
-                      pathname === "/front-pages/faq/" ? "active" : ""
-                    }`}
-                  >
-                    FAQ's
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/front-pages/contact/"
-                    className={`nav-link ${
-                      pathname === "/front-pages/contact/" ? "active" : ""
-                    }`}
-                  >
-                    Contact
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    href="/dashboard/ecommerce/"
-                    className={`nav-link ${
-                      pathname === "/contact/" ? "active" : ""
-                    }`}
-                  >
-                    Admin
+                    Getting Started
                   </Link>
                 </li>
               </ul>
 
               <div className="other-options">
                 <Link
-                  href="/authentication/sign-in/"
+                  href="/admin"
                   className="fp-outlined-btn"
                 >
-                  <i className="material-symbols-outlined">login</i>
-                  Login
+                  <i className="material-symbols-outlined">dashboard</i>
+                  Browse
                 </Link>
 
-                <Link href="/authentication/sign-up/" className="fp-btn">
-                  <i className="material-symbols-outlined">person</i>
-                  Register
+                <Link href="/admin/introduction" className="fp-btn">
+                  <i className="material-symbols-outlined">school</i>
+                  Start Learning
                 </Link>
               </div>
             </div>
