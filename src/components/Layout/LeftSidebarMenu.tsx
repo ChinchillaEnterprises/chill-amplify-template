@@ -79,22 +79,6 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
 
           <Box className="sidebar-inner">
             <Box className="sidebar-menu">
-              {/* Dashboard - Single Link without Accordion */}
-              <ul className="sidebar-sub-menu" style={{ paddingTop: '8px' }}>
-                <li className="sidemenu-item">
-                  <Link
-                    href="/admin"
-                    className={`sidemenu-link ${
-                      pathname === "/admin" ? "active" : ""
-                    }`}
-                    style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
-                  >
-                    <i className="material-symbols-outlined" style={{ fontSize: '20px' }}>dashboard</i>
-                    Dashboard
-                  </Link>
-                </li>
-              </ul>
-
               <Typography
                 className="sub-title"
                 sx={{

@@ -113,6 +113,18 @@ const TopNavbar: React.FC<TopNavbarProps> = ({ toggleActive }) => {
                   mt: { xs: "10px", sm: "0px" },
                 }}
               >
+                {/* Home */}
+                <Tooltip title="Back to Site" arrow>
+                  <IconButton
+                    component={Link}
+                    href="/"
+                    size="small"
+                    color="inherit"
+                  >
+                    <i className="material-symbols-outlined">home</i>
+                  </IconButton>
+                </Tooltip>
+
                 {/* DarkMode */}
                 <DarkMode />
 

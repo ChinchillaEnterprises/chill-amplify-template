@@ -42,7 +42,7 @@ const HeroBanner: React.FC = () => {
               components into your vision. Blog, dashboard, e-commerce – it's all possible.
             </p>
 
-            <Link href="/admin/" className="fp-banner-button">
+            <Link href="/admin" className="fp-banner-button">
               <i className="material-symbols-outlined">dashboard</i>
               Explore Components
             </Link>

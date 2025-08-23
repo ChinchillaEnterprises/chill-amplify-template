@@ -81,9 +81,9 @@ const Navbar: React.FC = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/front-pages/features/"
+                    href="/components"
                     className={`nav-link ${
-                      pathname === "/front-pages/features/" ? "active" : ""
+                      pathname === "/components" ? "active" : ""
                     }`}
                   >
                     Components
@@ -103,9 +103,9 @@ const Navbar: React.FC = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/front-pages/team/"
+                    href="/showcase"
                     className={`nav-link ${
-                      pathname === "/front-pages/team/" ? "active" : ""
+                      pathname === "/showcase" ? "active" : ""
                     }`}
                   >
                     Showcase
@@ -114,9 +114,9 @@ const Navbar: React.FC = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/front-pages/faq/"
+                    href="/faq"
                     className={`nav-link ${
-                      pathname === "/front-pages/faq/" ? "active" : ""
+                      pathname === "/faq" ? "active" : ""
                     }`}
                   >
                     FAQ's
@@ -125,12 +125,12 @@ const Navbar: React.FC = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/dashboard/ecommerce/"
+                    href="/admin"
                     className={`nav-link ${
-                      pathname === "/contact/" ? "active" : ""
+                      pathname.startsWith("/admin") ? "active" : ""
                     }`}
                   >
-                    Admin
+                    Dashboard
                   </Link>
                 </li>
               </ul>
