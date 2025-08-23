@@ -12,7 +12,7 @@ const testimonials = [
     image: "/images/front-pages/user1.jpg",
     rating: 5,
     review:
-      "Trezo Dashboard Template has transformed how we manage our data. Its intuitive design and customizable features have streamlined our analytics process, enabling us to make informed decisions faster than ever before.",
+      "Chill Components Dashboard Template has transformed how we manage our data. Its intuitive design and customizable features have streamlined our analytics process, enabling us to make informed decisions faster than ever before.",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const testimonials = [
     image: "/images/front-pages/user2.jpg",
     rating: 4.5,
     review:
-      "As a developer, I appreciate the flexibility and robustness of Trezo Dashboard Template. It offers a wide range of features that cater to our diverse needs, and its clean codebase has made customization a breeze. Highly recommended!",
+      "As a developer, I appreciate the flexibility and robustness of Chill Components Dashboard Template. It offers a wide range of features that cater to our diverse needs, and its clean codebase has made customization a breeze. Highly recommended!",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const testimonials = [
     image: "/images/front-pages/user3.jpg",
     rating: 4,
     review:
-      "Trezo Dashboard Template has been a lifesaver for our organization. It's helped us streamline our reporting processes and communicate insights effectively across departments. The time saved has allowed us to focus more on strategic initiatives.",
+      "Chill Components Dashboard Template has been a lifesaver for our organization. It's helped us streamline our reporting processes and communicate insights effectively across departments. The time saved has allowed us to focus more on strategic initiatives.",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const testimonials = [
     image: "/images/front-pages/user4.jpg",
     rating: 3.5,
     review:
-      "I can't recommend the Trezo Template enough. It's helped us gain a deeper understanding of our business metrics and identify areas for improvement. The responsive support team is a bonus, always ready to assist whenever needed.",
+      "I can't recommend the Chill Components Template enough. It's helped us gain a deeper understanding of our business metrics and identify areas for improvement. The responsive support team is a bonus, always ready to assist whenever needed.",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const testimonials = [
     image: "/images/front-pages/user5.jpg",
     rating: 5,
     review:
-      "Using Trezo Dashboard Template has been a game-changer for our team. The ability to customize widgets to suit our specific needs has allowed us to gain deeper insights into our performance metrics and drive business growth.",
+      "Using Chill Components Dashboard Template has been a game-changer for our team. The ability to customize widgets to suit our specific needs has allowed us to gain deeper insights into our performance metrics and drive business growth.",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const testimonials = [
     image: "/images/front-pages/user6.jpg",
     rating: 3,
     review:
-      "As a startup, we needed a dashboard solution that was both powerful and cost-effective. Trezo Dashboard Template checked all the boxes for us. It's helped us stay agile and competitive in a fast-paced market.",
+      "As a startup, we needed a dashboard solution that was both powerful and cost-effective. Chill Components Dashboard Template checked all the boxes for us. It's helped us stay agile and competitive in a fast-paced market.",
   },
 ];
 
@@ -113,7 +113,7 @@ const Testimonials: React.FC = () => {
                 fontSize: { xs: "24px", md: "28px", lg: "34px", xl: "36px" },
               }}
             >
-              Inspiring Feedback: What Users Love About Trezo Dashboard
+              Inspiring Feedback: What Users Love About Chill Components Dashboard
             </Typography>
           </div>
 

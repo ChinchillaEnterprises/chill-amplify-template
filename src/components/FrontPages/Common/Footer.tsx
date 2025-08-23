@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
                 <h3>Our Products</h3>
                 <ul className="custom-links">
                   <li>
-                    <Link href="#">Trezo Dashboard</Link>
+                    <Link href="#">Chill Components Dashboard</Link>
                   </li>
                   <li>
                     <Link href="#">Tagus Admin</Link>
@@ -146,7 +146,7 @@ const Footer: React.FC = () => {
         <div className="copyright-area bg-white text-center">
           <div className="container">
             <p>
-              © <span>Trezo</span> is Proudly Owned by{" "}
+              © <span>Chill Components</span> is Proudly Owned by{" "}
               <a href="https://envytheme.com/" target="_blank">
                 EnvyTheme
               </a>

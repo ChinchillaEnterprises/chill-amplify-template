@@ -27,8 +27,8 @@ import theme from "@/theme";
 import LayoutProvider from "@/providers/LayoutProvider";
 
 export const metadata = {
-  title: "Trezo - React Nextjs 15+ Material Design Admin Dashboard Template",
-  description: "React Nextjs 15+ Material Design Admin Dashboard Template",
+  title: "Chill Components - AI-Powered Component Library",
+  description: "A comprehensive React component library built with Material-UI and AWS Amplify",
 };
 
 export default function RootLayout(props: { children: React.ReactNode }) {
